@@ -100,23 +100,23 @@ function App() {
 
         {/* Technology */}
 
-        <Route path="/technology#tech_adobe_xd" element={<Adobe />} />
-        <Route path="/technology#tech_angularjs" element={<Angular />} />
+        <Route path="/technology-tech_adobe_xd" element={<Adobe />} />
+        <Route path="/technology-tech_angularjs" element={<Angular />} />
         <Route path="/net-development-company" element={<AspNet />} />
-        <Route path="/technology#tech_c_hash" element={<C />} />
-        <Route path="/technology#tech_c_plus" element={<Ccc />} />
-        <Route path="/technology#tech_css_three" element={<Css />} />
-        <Route path="/technology#tech_figma" element={<Figma />} />
-        <Route path="/technology#tech_html" element={<Html />} />
-        <Route path="/technology#tech_java" element={<Java />} />
-        <Route path="/technology#tech_javascript" element={<JavaScript />} />
-        <Route path="/technology#tech_mysql" element={<MySql />} />
+        <Route path="/technology-tech_c_hash" element={<C />} />
+        <Route path="/technology-tech_c_plus" element={<Ccc />} />
+        <Route path="/technology-tech_css_three" element={<Css />} />
+        <Route path="/technology-tech_figma" element={<Figma />} />
+        <Route path="/technology-tech_html" element={<Html />} />
+        <Route path="/technology-tech_java" element={<Java />} />
+        <Route path="/technology-tech_javascript" element={<JavaScript />} />
+        <Route path="/technology-tech_mysql" element={<MySql />} />
         <Route path="/nodejs-development-company" element={<Node />} />
-        <Route path="/technology#tech_python" element={< Paython />} />
-        <Route path="/technology#tech_photoshop" element={<Photoshop />} />
+        <Route path="/technology-tech_python" element={< Paython />} />
+        <Route path="/technology-tech_photoshop" element={<Photoshop />} />
         <Route path="/php-development-company" element={<Php />} />
-        <Route path="/technology#tech_reactjs" element={<Reactjss />} />
-        <Route path="/technology#tech_sql_server " element={<SqlServer />} />
+        <Route path="/technology-tech_reactjs" element={<Reactjss />} />
+        <Route path="/technology-tech_sql_server " element={<SqlServer />} />
 
         {/* Solutions */}
         <Route path="/taxi-booking-software" element={<CabBooking />} />

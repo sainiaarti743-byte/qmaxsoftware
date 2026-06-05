@@ -301,34 +301,34 @@ const Header = () => {
 
                                                                 <Link to="/net-development-company">ASP.NET</Link>
                                                                 <Link to="/nodejs-development-company">Node JS</Link>
-                                                                <Link to="/technology#tech_python">Python</Link>
+                                                                <Link to="/technology-tech_python">Python</Link>
                                                                 <Link to="/php-development-company">PHP</Link>
-                                                                <Link to="/technology#tech_java">Java</Link>
-                                                                <Link to="/technology#tech_c_hash">C#</Link>
-                                                                <Link to="/technology#tech_c_plus">C++</Link>
+                                                                <Link to="/technology-tech_java">Java</Link>
+                                                                <Link to="/technology-tech_c_hash">C#</Link>
+                                                                <Link to="/technology-tech_c_plus">C++</Link>
                                                             </div>
 
                                                             <div className="megamenu-column">
                                                                 <h3 className="megamenu-title">Front-End</h3>
 
-                                                                <Link to="/technology#tech_html">HTML5</Link>
-                                                                <Link to="/technology#tech_css_three">CSS3</Link>
-                                                                <Link to="/technology#tech_javascript">JavaScript</Link>
-                                                                <Link to="/technology#tech_reactjs">React JS</Link>
-                                                                <Link to="/technology#tech_angularjs">Angular JS</Link>
+                                                                <Link to="/technology-tech_html">HTML5</Link>
+                                                                <Link to="/technology-tech_css_three">CSS3</Link>
+                                                                <Link to="/technology-tech_javascript">JavaScript</Link>
+                                                                <Link to="/technology-tech_reactjs">React JS</Link>
+                                                                <Link to="/technology-tech_angularjs">Angular JS</Link>
                                                             </div>
 
                                                             <div className="megamenu-column">
                                                                 <h3 className="megamenu-title">Database</h3>
 
-                                                                <Link to="/technology#tech_mysql">MySQL</Link>
-                                                                <Link to="/technology#tech_sql_server">SQL Server</Link>
+                                                                <Link to="/technology-tech_mysql">MySQL</Link>
+                                                                <Link to="/technology-tech_sql_server">SQL Server</Link>
 
                                                                 <h3 className="megamenu-title mt-3">UI/UX & Design Tools</h3>
 
-                                                                <Link to="/technology#tech_photoshop">Photoshop</Link>
-                                                                <Link to="/technology#tech_figma">Figma</Link>
-                                                                <Link to="/technology#tech_adobe_xd">Adobe XD</Link>
+                                                                <Link to="/technology-tech_photoshop">Photoshop</Link>
+                                                                <Link to="/technology-tech_figma">Figma</Link>
+                                                                <Link to="/technology-tech_adobe_xd">Adobe XD</Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -563,7 +563,7 @@ const Header = () => {
                                                         Node JS
                                                     </Link>
 
-                                                    <Link to="/technology#tech_python" onClick={() => setIsMenuOpen(false)}>
+                                                    <Link to="/technology-tech_python" onClick={() => setIsMenuOpen(false)}>
                                                         Python
                                                     </Link>
 
@@ -571,23 +571,23 @@ const Header = () => {
                                                         PHP
                                                     </Link>
 
-                                                    <Link to="/technology#tech_reactjs" onClick={() => setIsMenuOpen(false)}>
+                                                    <Link to="/technology-tech_reactjs" onClick={() => setIsMenuOpen(false)}>
                                                         React JS
                                                     </Link>
 
-                                                    <Link to="/technology#tech_angularjs" onClick={() => setIsMenuOpen(false)}>
+                                                    <Link to="/technology-tech_angularjs" onClick={() => setIsMenuOpen(false)}>
                                                         Angular JS
                                                     </Link>
 
-                                                    <Link to="/technology#tech_mysql" onClick={() => setIsMenuOpen(false)}>
+                                                    <Link to="/technology-tech_mysql" onClick={() => setIsMenuOpen(false)}>
                                                         MySQL
                                                     </Link>
 
-                                                    <Link to="/technology#tech_figma" onClick={() => setIsMenuOpen(false)}>
+                                                    <Link to="/technology-tech_figma" onClick={() => setIsMenuOpen(false)}>
                                                         Figma
                                                     </Link>
 
-                                                    <Link to="/technology#tech_adobe_xd" onClick={() => setIsMenuOpen(false)}>
+                                                    <Link to="/technology-tech_adobe_xd" onClick={() => setIsMenuOpen(false)}>
                                                         Adobe XD
                                                     </Link>
                                                 </div>
