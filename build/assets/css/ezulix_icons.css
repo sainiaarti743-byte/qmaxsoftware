@@ -1,0 +1,1697 @@
+@font-face {
+    font-family: EzulixIcon;
+    src: url(../fonts/ezulix.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+    font-display: swap;
+}
+
+[class*=ezulix-],
+[class^=ezulix-] {
+    font-family: EzulixIcon;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.ezulix-datacard-recharge:before {
+    content: "\e935"
+}
+
+.ezulix-landline-bill:before {
+    content: "\e98a"
+}
+
+.ezulix-dth-recharge:before {
+    content: "\e98b"
+}
+
+.ezulix-electricity-bill:before {
+    content: "\e98c"
+}
+
+.ezulix-loan-repayment:before {
+    content: "\e98d"
+}
+
+.ezulix-insurance-payment:before {
+    content: "\e98e"
+}
+
+.ezulix-gas:before {
+    content: "\e98f"
+}
+
+.ezulix-water:before {
+    content: "\e990"
+}
+
+.ezulix-upi-transfer:before {
+    content: "\e991"
+}
+
+.ezulix-angle-double-down:before {
+    content: "\e992"
+}
+
+.ezulix-management-risk:before {
+    content: "\e993"
+}
+
+.ezulix-live-streaming:before {
+    content: "\e994"
+}
+
+.ezulix-xpress-payout:before {
+    content: "\e995"
+}
+
+.ezulix-aadhaar-pay:before {
+    content: "\e996"
+}
+
+.ezulix-mini-statement:before {
+    content: "\e997"
+}
+
+.ezulix-fund-transfer:before {
+    content: "\e998"
+}
+
+.ezulix-balance-enquiry:before {
+    content: "\e999"
+}
+
+.ezulix-cash-withdraw:before {
+    content: "\e99a"
+}
+
+.ezulix-divrse-game:before {
+    content: "\e95b"
+}
+
+.ezulix-integration-plugins:before {
+    content: "\e95c"
+}
+
+.ezulix-work-across_platforms:before {
+    content: "\e95d"
+}
+
+.ezulix-flight-menu:before {
+    content: "\e99b"
+}
+
+.ezulix-bus-booking-menu:before {
+    content: "\e95e"
+}
+
+.ezulix-uti-menu:before {
+    content: "\e95f"
+}
+
+.ezulix-aeps-menu:before {
+    content: "\e960"
+}
+
+.ezulix-dmt-menu:before {
+    content: "\e961"
+}
+
+.ezulix-hotel-menu:before {
+    content: "\e962"
+}
+
+.ezulix-cibil-score-menu:before {
+    content: "\e963"
+}
+
+.ezulix-bbps-menu:before {
+    content: "\e964"
+}
+
+.ezulix-recharge-menu:before {
+    content: "\e965"
+}
+
+.ezulix-aeps-api:before {
+    content: "\e966"
+}
+
+.ezulix-driving-liense-verification-api:before {
+    content: "\e967"
+}
+
+.ezulix-passport-verification-api:before {
+    content: "\e968"
+}
+
+.ezulix-mpos-machine:before {
+    content: "\e969"
+}
+
+.ezulix-vehicle-rc-verifitation-api:before {
+    content: "\e96a"
+}
+
+.ezulix-voter-id-verification:before {
+    content: "\e96b"
+}
+
+.ezulix-cibil-score-api:before {
+    content: "\e96c"
+}
+
+.ezulix-payout-api:before {
+    content: "\e96d"
+}
+
+.ezulix-aadhar-verification-api:before {
+    content: "\e96e"
+}
+
+.ezulix-hotel-booking-api:before {
+    content: "\e96f"
+}
+
+.ezulix-flight-booking-api:before {
+    content: "\e970"
+}
+
+.ezulix-bus-booking-api:before {
+    content: "\e971"
+}
+
+.ezulix-pan-varofocatopm-api:before {
+    content: "\e972"
+}
+
+.ezulix-multi-recharge-api:before {
+    content: "\e973"
+}
+
+.ezulix-divrse-market:before {
+    content: "\e974"
+}
+
+.ezulix-corporate-training:before {
+    content: "\e975"
+}
+
+.ezulix-education-sector:before {
+    content: "\e976"
+}
+
+.ezulix-convenience-remote:before {
+    content: "\e977"
+}
+
+.ezulix-augmented-income:before {
+    content: "\e978"
+}
+
+.ezulix-automated-reporting:before {
+    content: "\e979"
+}
+
+.ezulix-time-management:before {
+    content: "\e97a"
+}
+
+.ezulix-avoiding-payment:before {
+    content: "\e97b"
+}
+
+.ezulix-getrid-manual-error:before {
+    content: "\e97c"
+}
+
+.ezulix-softwaer-color:before {
+    content: "\e97d"
+}
+
+.ezulix-attendance:before {
+    content: "\e97e"
+}
+
+.ezulix-inhouse-developer:before {
+    content: "\e97f"
+}
+
+.ezulix-secured-payment_gateway:before {
+    content: "\e980"
+}
+
+.ezulix-understanding_b2c:before {
+    content: "\e981"
+}
+
+.ezulix-understanding-b2b:before {
+    content: "\e982"
+}
+
+.ezulix-advantages-student-parents:before {
+    content: "\e983"
+}
+
+.ezulix-advantages-staff-teacher:before {
+    content: "\e984"
+}
+
+.ezulix-advantages-management:before {
+    content: "\e985"
+}
+
+.ezulix-transportation-gps:before {
+    content: "\e986"
+}
+
+.ezulix-inventory-management:before {
+    content: "\e987"
+}
+
+.ezulix-financial-accounting:before {
+    content: "\e988"
+}
+
+.ezulix-staff-payroll:before {
+    content: "\e989"
+}
+
+.ezulix-staff-information:before {
+    content: "\e933"
+}
+
+.ezulix-library-management:before {
+    content: "\e9a2"
+}
+
+.ezulix-exam-result:before {
+    content: "\e9a3"
+}
+
+.ezulix-school-fee:before {
+    content: "\e9a4"
+}
+
+.ezulix-student-information:before {
+    content: "\e9a5"
+}
+
+.ezulix-online-registration:before {
+    content: "\e9a6"
+}
+
+.ezulix-empowers-teacher-department:before {
+    content: "\e9a7"
+}
+
+.ezulix-cloud-facilitation:before {
+    content: "\e9a8"
+}
+
+.ezulix-sms-email-emtegration:before {
+    content: "\e9a9"
+}
+
+.ezulix-cost-energy-saving:before {
+    content: "\e9aa"
+}
+
+.ezulix-web-based:before {
+    content: "\e9ab"
+}
+
+.ezulix-easiest-erp-learn:before {
+    content: "\e9ac"
+}
+
+.ezulix-easiest-fastest:before {
+    content: "\e9ad"
+}
+
+.ezulix-personalized-access:before {
+    content: "\e9ae"
+}
+
+.ezulix-integration-plugins1:before {
+    content: "\e9af"
+}
+
+.ezulix-feedback:before {
+    content: "\e9b0"
+}
+
+.ezulix-service-search:before {
+    content: "\e9b1"
+}
+
+.ezulix-service-request:before {
+    content: "\e9b2"
+}
+
+.ezulix-controlling-service:before {
+    content: "\e9b3"
+}
+
+.ezulix-aid-assistance:before {
+    content: "\e9b4"
+}
+
+.ezulix-demands-real-time:before {
+    content: "\e9b5"
+}
+
+.ezulix-service-marketing:before {
+    content: "\e9b6"
+}
+
+.ezulix-analytics-reporting:before {
+    content: "\e9b7"
+}
+
+.ezulix-control-requests:before {
+    content: "\e9b8"
+}
+
+.ezulix-executive-dashboard:before {
+    content: "\e9b9"
+}
+
+.ezulix-training-management:before {
+    content: "\e9ba"
+}
+
+.ezulix-onboarding:before {
+    content: "\e9bb"
+}
+
+.ezulix-document-management:before {
+    content: "\e9bc"
+}
+
+.ezulix-employee-records:before {
+    content: "\e9bd"
+}
+
+.ezulix-payroll:before {
+    content: "\e9be"
+}
+
+.ezulix-web-developer:before {
+    content: "\e9bf"
+}
+
+.ezulix-flutter-developers:before {
+    content: "\e9c0"
+}
+
+.ezulix-ios-svgrepo:before {
+    content: "\e9c1"
+}
+
+.ezulix-7-ongoing-support:before {
+    content: "\e9c2"
+}
+
+.ezulix-user-friendly:before {
+    content: "\e905"
+}
+
+.ezulix-confidentiality-policy:before {
+    content: "\e9c3"
+}
+
+.ezulix-free-demo:before {
+    content: "\e9c4"
+}
+
+.ezulix-hitech-amenities:before {
+    content: "\e9c5"
+}
+
+.ezulix-adjustable-hiring:before {
+    content: "\e9c6"
+}
+
+.ezulix-reseller-improve:before {
+    content: "\e9c7"
+}
+
+.ezulix-reseller-reduces:before {
+    content: "\e9c8"
+}
+
+.ezulix-reseller-comparatively:before {
+    content: "\e9c9"
+}
+
+.ezulix-reseller-fastened:before {
+    content: "\e9ca"
+}
+
+.ezulix-reseller-building:before {
+    content: "\e9cb"
+}
+
+.ezulix-reseller-expansion:before {
+    content: "\e9cc"
+}
+
+.ezulix-employee-portal:before {
+    content: "\e9cd"
+}
+
+.ezulix-gps-tracking:before {
+    content: "\e9ce"
+}
+
+.ezulix-stock-management:before {
+    content: "\e9cf"
+}
+
+.ezulix-proficient-quotations:before {
+    content: "\e9d0"
+}
+
+.ezulix-field-employee:before {
+    content: "\e9d1"
+}
+
+.ezulix-employee-order-management:before {
+    content: "\e9d2"
+}
+
+.ezulix-scheduling-work:before {
+    content: "\e9d3"
+}
+
+.ezulix-features-trave-portal:before {
+    content: "\e9d4"
+}
+
+.ezulix-travel-hotel:before {
+    content: "\e9d5"
+}
+
+.ezulix-travel-bus:before {
+    content: "\e9d6"
+}
+
+.ezulix-travel-flight:before {
+    content: "\e9d7"
+}
+
+.ezulix-wholesaler:before {
+    content: "\e9d8"
+}
+
+.ezulix-distributor:before {
+    content: "\e9d9"
+}
+
+.ezulix-manufactyrer:before {
+    content: "\e9da"
+}
+
+.ezulix-support:before {
+    content: "\e9db"
+}
+
+.ezulix-intergration-solutions:before {
+    content: "\e9dc"
+}
+
+.ezulix-business-analysis:before {
+    content: "\e9dd"
+}
+
+.ezulix-user-adoption:before {
+    content: "\e9de"
+}
+
+.ezulix-transmission-data:before {
+    content: "\e9df"
+}
+
+.ezulix-crm-development:before {
+    content: "\e9e0"
+}
+
+.ezulix-about-vision:before {
+    content: "\e9e1"
+}
+
+.ezulix-about-mission:before {
+    content: "\e9e2"
+}
+
+.ezulix-about-certified:before {
+    content: "\e9e3"
+}
+
+.ezulix-about-client:before {
+    content: "\e9e4"
+}
+
+.ezulix-about-award:before {
+    content: "\e9e5"
+}
+
+.ezulix-about-year:before {
+    content: "\e9e6"
+}
+
+.ezulix-about-idea:before {
+    content: "\e9e7"
+}
+
+.ezulix-apis:before {
+    content: "\e9e8"
+}
+
+.ezulix-software:before {
+    content: "\e9e9"
+}
+
+.ezulix-cancel:before {
+    content: "\e9ea"
+}
+
+.ezulix-gray-insurance:before {
+    content: "\e9eb"
+}
+
+.ezulix-insurance:before {
+    content: "\e9ec"
+}
+
+.ezulix-gray-telecom:before {
+    content: "\e9ed"
+}
+
+.ezulix-gray-oil:before {
+    content: "\e9ee"
+}
+
+.ezulix-energy:before {
+    content: "\e9ef"
+}
+
+.ezulix-telecom:before {
+    content: "\e9f0"
+}
+
+.ezulix-gray-retail:before {
+    content: "\e9f1"
+}
+
+.ezulix-oil_gas:before {
+    content: "\e9f2"
+}
+
+.ezulix-retail:before {
+    content: "\e9f3"
+}
+
+.ezulix-gray-all-design:before {
+    content: "\e9f4"
+}
+
+.ezulix-all-design:before {
+    content: "\e9f5"
+}
+
+.ezulix-home:before {
+    content: "\e9f6"
+}
+
+.ezulix-mail_outer:before {
+    content: "\e9f7"
+}
+
+.ezulix-envelope-open_fill:before {
+    content: "\e9f8"
+}
+
+.ezulix-envelope_outer:before {
+    content: "\e9f9"
+}
+
+.ezulix-envelope_open_outer:before {
+    content: "\e9fa"
+}
+
+.ezulix-envelope_fill:before {
+    content: "\e9fb"
+}
+
+.ezulix-gamepad:before {
+    content: "\e9fc"
+}
+
+.ezulix-ellipsis-h:before {
+    content: "\e9fd"
+}
+
+.ezulix-ellipsis-v:before {
+    content: "\e9fe"
+}
+
+.ezulix-traveler:before {
+    content: "\e9ff"
+}
+
+.ezulix-user_right_plus:before {
+    content: "\ea00"
+}
+
+.ezulix-user_plus:before {
+    content: "\ea01"
+}
+
+.ezulix-user:before {
+    content: "\ea02"
+}
+
+.ezulix-people_outline:before {
+    content: "\ea03"
+}
+
+.ezulix-notifications_outer:before {
+    content: "\ea04"
+}
+
+.ezulix-notifications:before {
+    content: "\ea05"
+}
+
+.ezulix-taxi:before {
+    content: "\ea06"
+}
+
+.ezulix-shope:before {
+    content: "\ea07"
+}
+
+.ezulix-shipping-fill:before {
+    content: "\ea08"
+}
+
+.ezulix-navigation:before {
+    content: "\ea09"
+}
+
+.ezulix-location_arrow:before {
+    content: "\ea0a"
+}
+
+.ezulix-map-marker:before {
+    content: "\ea0b"
+}
+
+.ezulix-luggage:before {
+    content: "\ea0c"
+}
+
+.ezulix-lock_outline:before {
+    content: "\ea0d"
+}
+
+.ezulix-lock_open:before {
+    content: "\ea0e"
+}
+
+.ezulix-lock:before {
+    content: "\ea0f"
+}
+
+.ezulix-two_wheeler:before {
+    content: "\ea10"
+}
+
+.ezulix-trophy:before {
+    content: "\ea11"
+}
+
+.ezulix-add_people:before {
+    content: "\ea12"
+}
+
+.ezulix-phone_android:before {
+    content: "\ea13"
+}
+
+.ezulix-laptop_windows:before {
+    content: "\ea14"
+}
+
+.ezulix-laptop_mac:before {
+    content: "\ea15"
+}
+
+.ezulix-laptop_chromebook:before {
+    content: "\ea16"
+}
+
+.ezulix-volume_off:before {
+    content: "\ea17"
+}
+
+.ezulix-volume_up:before {
+    content: "\ea18"
+}
+
+.ezulix-volume_down:before {
+    content: "\ea19"
+}
+
+.ezulix-videocam_off:before {
+    content: "\ea1a"
+}
+
+.ezulix-zoom_in:before {
+    content: "\ea1b"
+}
+
+.ezulix-star_half:before {
+    content: "\ea1c"
+}
+
+.ezulix-check:before {
+    content: "\ea1d"
+}
+
+.ezulix-bag_fill:before {
+    content: "\ea1e"
+}
+
+.ezulix-insurance-umbrella:before {
+    content: "\ea1f"
+}
+
+.ezulix-bank:before {
+    content: "\ea20"
+}
+
+.ezulix-flight_takeoff:before {
+    content: "\ea21"
+}
+
+.ezulix-airplanemode_on:before {
+    content: "\ea22"
+}
+
+.ezulix-gray-design:before {
+    content: "\ea23"
+}
+
+.ezulix-logout:before {
+    content: "\ea24"
+}
+
+.ezulix-login:before {
+    content: "\ea25"
+}
+
+.ezulix-plus_circle:before {
+    content: "\ea26"
+}
+
+.ezulix-plus_fill:before {
+    content: "\ea27"
+}
+
+.ezulix-plus_circle_outline:before {
+    content: "\ea28"
+}
+
+.ezulix-plus:before {
+    content: "\ea29"
+}
+
+.ezulix-remove_circle:before {
+    content: "\ea2a"
+}
+
+.ezulix-remove_circle_outline:before {
+    content: "\ea2b"
+}
+
+.ezulix-remove:before {
+    content: "\ea2c"
+}
+
+.ezulix-play_circle_outline:before {
+    content: "\ea2d"
+}
+
+.ezulix-search:before {
+    content: "\ea2e"
+}
+
+.ezulix-play_circle_filled:before {
+    content: "\ea2f"
+}
+
+.ezulix-play_arrow:before {
+    content: "\ea30"
+}
+
+.ezulix-menu:before {
+    content: "\ea31"
+}
+
+.ezulix-settings:before {
+    content: "\ea32"
+}
+
+.ezulix-fullscreen:before {
+    content: "\ea33"
+}
+
+.ezulix-fullscreen_exit:before {
+    content: "\ea34"
+}
+
+.ezulix-first_page1:before {
+    content: "\ea35"
+}
+
+.ezulix-unfold_more:before {
+    content: "\ea36"
+}
+
+.ezulix-forward:before {
+    content: "\ea37"
+}
+
+.ezulix-backward:before {
+    content: "\ea38"
+}
+
+.ezulix-skip_previous:before {
+    content: "\ea39"
+}
+
+.ezulix-skip_next:before {
+    content: "\ea3a"
+}
+
+.ezulix-angle_left:before {
+    content: "\ea3b"
+}
+
+.ezulix-angle_right:before {
+    content: "\ea3c"
+}
+
+.ezulix-angle_up:before {
+    content: "\ea3d"
+}
+
+.ezulix-angle_down:before {
+    content: "\ea3e"
+}
+
+.ezulix-long_arrow_right:before {
+    content: "\ea3f"
+}
+
+.ezulix-long_arrow_left:before {
+    content: "\ea40"
+}
+
+.ezulix-long_arrow_top:before {
+    content: "\ea41"
+}
+
+.ezulix-long_arrow_down:before {
+    content: "\ea42"
+}
+
+.ezulix-caret_right:before {
+    content: "\ea43"
+}
+
+.ezulix-caret_left:before {
+    content: "\ea44"
+}
+
+.ezulix-caret_drop_up:before {
+    content: "\ea45"
+}
+
+.ezulix-caret_down:before {
+    content: "\ea46"
+}
+
+.ezulix-youtube:before {
+    content: "\ea47"
+}
+
+.ezulix-youtube-play:before {
+    content: "\ea48"
+}
+
+.ezulix-linkedin_fill:before {
+    content: "\ea49"
+}
+
+.ezulix-pinterest_fill:before {
+    content: "\ea4a"
+}
+
+.ezulix-pinterest:before {
+    content: "\ea4b"
+}
+
+.ezulix-instagram:before {
+    content: "\ea4c"
+}
+
+.ezulix-twitter_fill:before {
+    content: "\ea4d"
+}
+
+.ezulix-twitter:before {
+    content: "\ea4e"
+}
+
+.ezulix-facebook_fill:before {
+    content: "\ea4f"
+}
+
+.ezulix-facebook:before {
+    content: "\ea50"
+}
+
+.ezulix-live-feed-analyrics:before {
+    content: "\ea51"
+}
+
+.ezulix-bonus-cash-management:before {
+    content: "\ea52"
+}
+
+.ezulix-observe-withdraw:before {
+    content: "\ea53"
+}
+
+.ezulix-referral-earnings:before {
+    content: "\ea54"
+}
+
+.ezulix-managing-reward:before {
+    content: "\ea55"
+}
+
+.ezulix-multiple-team:before {
+    content: "\ea56"
+}
+
+.ezulix-oversignt-revenue:before {
+    content: "\ea57"
+}
+
+.ezulix-create-touranaments:before {
+    content: "\ea58"
+}
+
+.ezulix-player-management:before {
+    content: "\ea59"
+}
+
+.ezulix-link-tournaments:before {
+    content: "\ea5a"
+}
+
+.ezulix-match-management:before {
+    content: "\ea5b"
+}
+
+.ezulix-search-opstion:before {
+    content: "\ea5c"
+}
+
+.ezulix-admin-dashboard:before {
+    content: "\ea5d"
+}
+
+.ezulix-player-login:before {
+    content: "\ea5e"
+}
+
+.ezulix-admin-login:before {
+    content: "\ea5f"
+}
+
+.ezulix-user-registration:before {
+    content: "\ea60"
+}
+
+.ezulix-consistent-payment:before {
+    content: "\ea61"
+}
+
+.ezulix-multiple_category:before {
+    content: "\ea62"
+}
+
+.ezulix-offers-promotions:before {
+    content: "\ea63"
+}
+
+.ezulix-delivery-person-tracking:before {
+    content: "\ea64"
+}
+
+.ezulix-analytical-reports:before {
+    content: "\ea65"
+}
+
+.ezulix-bulk-product-listing:before {
+    content: "\ea66"
+}
+
+.ezulix-live-inventory:before {
+    content: "\ea67"
+}
+
+.ezulix-order-management:before {
+    content: "\ea68"
+}
+
+.ezulix-app-maintenance:before {
+    content: "\ea69"
+}
+
+.ezulix-app-testing:before {
+    content: "\ea6a"
+}
+
+.ezulix-app-uiux:before {
+    content: "\ea6b"
+}
+
+.ezulix-app-security:before {
+    content: "\ea6c"
+}
+
+.ezulix-app_hosting:before {
+    content: "\ea6d"
+}
+
+.ezulix-features-complexity:before {
+    content: "\ea6e"
+}
+
+.ezulix-technology:before {
+    content: "\ea6f"
+}
+
+.ezulix-app-platform:before {
+    content: "\ea70"
+}
+
+.ezulix-cloud-kitchen:before {
+    content: "\ea71"
+}
+
+.ezulix-food-aggregators:before {
+    content: "\ea72"
+}
+
+.ezulix-single-restaurants:before {
+    content: "\ea73"
+}
+
+.ezulix-restaurant-chains:before {
+    content: "\ea74"
+}
+
+.ezulix-delivery-app:before {
+    content: "\ea75"
+}
+
+.ezulix-restaurant-app:before {
+    content: "\ea76"
+}
+
+.ezulix-admin-panel:before {
+    content: "\ea77"
+}
+
+.ezulix-customer-panel:before {
+    content: "\ea78"
+}
+
+.ezulix-multiple-payment:before {
+    content: "\ea79"
+}
+
+.ezulix-quick-command:before {
+    content: "\ea7a"
+}
+
+.ezulix-maintenance-support:before {
+    content: "\ea7b"
+}
+
+.ezulix-easy-interaction:before {
+    content: "\ea7c"
+}
+
+.ezulix-driver-information:before {
+    content: "\ea7d"
+}
+
+.ezulix-inapp-navigation:before {
+    content: "\ea7e"
+}
+
+.ezulix-appropriate-documentation:before {
+    content: "\ea7f"
+}
+
+.ezulix-fare-managment:before {
+    content: "\ea80"
+}
+
+.ezulix-beforehand-information:before {
+    content: "\ea81"
+}
+
+.ezulix-live_tracking:before {
+    content: "\ea82"
+}
+
+.ezulix-travelling-city:before {
+    content: "\ea83"
+}
+
+.ezulix-planing-feature:before {
+    content: "\ea84"
+}
+
+.ezulix-payment-history:before {
+    content: "\ea85"
+}
+
+.ezulix-vechicle-category:before {
+    content: "\ea86"
+}
+
+.ezulix-analyze-optimize:before {
+    content: "\ea87"
+}
+
+.ezulix-promote:before {
+    content: "\ea88"
+}
+
+.ezulix-email-marketing:before {
+    content: "\ea89"
+}
+
+.ezulix-contact-marketing:before {
+    content: "\ea8a"
+}
+
+.ezulix-payper-click:before {
+    content: "\ea8b"
+}
+
+.ezulix-social-media:before {
+    content: "\ea8c"
+}
+
+.ezulix-search-engine:before {
+    content: "\ea8d"
+}
+
+.ezulix-video-editing:before {
+    content: "\ea8e"
+}
+
+.ezulix-d3d-animation:before {
+    content: "\ea8f"
+}
+
+.ezulix-compnay-profile:before {
+    content: "\e900"
+}
+
+.ezulix-social-media-post:before {
+    content: "\e901"
+}
+
+.ezulix-corporate-branding:before {
+    content: "\e902"
+}
+
+.ezulix-graphic-design:before {
+    content: "\e903"
+}
+
+.ezulix-logo-design:before {
+    content: "\e904"
+}
+
+.ezulix-final-delivary:before {
+    content: "\ea90"
+}
+
+.ezulix-cross-check:before {
+    content: "\ea91"
+}
+
+.ezulix-conceptualization:before {
+    content: "\ea92"
+}
+
+.ezulix-ongoing-support:before {
+    content: "\ea93"
+}
+
+.ezulix-plost-launch:before {
+    content: "\ea94"
+}
+
+.ezulix-plat-app-store:before {
+    content: "\ea95"
+}
+
+.ezulix-quality-assurance:before {
+    content: "\ea96"
+}
+
+.ezulix-app-developmenst:before {
+    content: "\ea97"
+}
+
+.ezulix-app-designing:before {
+    content: "\ea98"
+}
+
+.ezulix-uiux-design:before {
+    content: "\ea99"
+}
+
+.ezulix-client-requirements:before {
+    content: "\ea9a"
+}
+
+.ezulix-live-support:before {
+    content: "\ea9b"
+}
+
+.ezulix-implementaition:before {
+    content: "\ea9c"
+}
+
+.ezulix-quality:before {
+    content: "\ea9d"
+}
+
+.ezulix-research:before {
+    content: "\ea9e"
+}
+
+.ezulix-dot-net:before {
+    content: "\e906"
+}
+
+.ezulix-php:before {
+    content: "\e907"
+}
+
+.ezulix-crm-software:before {
+    content: "\e908"
+}
+
+.ezulix-hrems-website:before {
+    content: "\e909"
+}
+
+.ezulix-ecommerce-website:before {
+    content: "\e90a"
+}
+
+.ezulix-tour-travel:before {
+    content: "\e90b"
+}
+
+.ezulix-dynamic-website:before {
+    content: "\e90c"
+}
+
+.ezulix-static-website:before {
+    content: "\e90d"
+}
+
+.ezulix-support-maintenance:before {
+    content: "\ea9f"
+}
+
+.ezulix-website_deployment:before {
+    content: "\eaa0"
+}
+
+.ezulix-testing:before {
+    content: "\eaa1"
+}
+
+.ezulix-coding-implementation:before {
+    content: "\eaa2"
+}
+
+.ezulix-designing:before {
+    content: "\eaa3"
+}
+
+.ezulix-planning:before {
+    content: "\eaa4"
+}
+
+.ezulix-requirement-analysis:before {
+    content: "\eaa5"
+}
+
+.ezulix-fun-activities:before {
+    content: "\e90e"
+}
+
+.ezulix-leaveecashment:before {
+    content: "\e90f"
+}
+
+.ezulix-work-life:before {
+    content: "\e910"
+}
+
+.ezulix-vibrant-culture:before {
+    content: "\e911"
+}
+
+.ezulix-training-sessions:before {
+    content: "\e912"
+}
+
+.ezulix-attractive-rewards:before {
+    content: "\e913"
+}
+
+.ezulix-best-place-work:before {
+    content: "\e914"
+}
+
+.ezulix-career-grouth:before {
+    content: "\e915"
+}
+
+.ezulix-market-package:before {
+    content: "\e916"
+}
+
+.ezulix-contact-mail:before {
+    content: "\eaa6"
+}
+
+.ezulix-contact-phone:before {
+    content: "\eaa7"
+}
+
+.ezulix-contact-address:before {
+    content: "\eaa8"
+}
+
+.ezulix-refresh:before {
+    content: "\e917"
+}
+
+.ezulix-symbol-dollar:before {
+    content: "\e918"
+}
+
+.ezulix-symbol-rupee:before {
+    content: "\e919"
+}
+
+.ezulix-gray-digital-marketing:before {
+    content: "\e91a"
+}
+
+.ezulix-digital-marketing:before {
+    content: "\e91b"
+}
+
+.ezulix-gray-ui-ux:before {
+    content: "\e91c"
+}
+
+.ezulix-ui-ux-design:before {
+    content: "\e91d"
+}
+
+.ezulix-gray-logo-graphic:before {
+    content: "\e91e"
+}
+
+.ezulix-logo-graphic:before {
+    content: "\e91f"
+}
+
+.ezulix-gray-app:before {
+    content: "\e920"
+}
+
+.ezulix-app-development:before {
+    content: "\e921"
+}
+
+.ezulix-gray-web:before {
+    content: "\e922"
+}
+
+.ezulix-web-development:before {
+    content: "\e923"
+}
+
+.ezulix-gray-software:before {
+    content: "\e924"
+}
+
+.ezulix-software-development:before {
+    content: "\e925"
+}
+
+.ezulix-development-company:before {
+    content: "\e926"
+}
+
+.ezulix-business-partner:before {
+    content: "\e927"
+}
+
+.ezulix-star-rating:before {
+    content: "\e928"
+}
+
+.ezulix-retention-rate:before {
+    content: "\e929"
+}
+
+.ezulix-active-software:before {
+    content: "\e92a"
+}
+
+.ezulix-satisfied-clients:before {
+    content: "\e92b"
+}
+
+.ezulix-expert-team:before {
+    content: "\e92c"
+}
+
+.ezulix-experience:before {
+    content: "\e92e"
+}
+
+.ezulix-e-icon:before {
+    content: "\e92d"
+}
+
+.ezulix-gray-portfolio:before {
+    content: "\e92f"
+}
+
+.ezulix-portfolio:before {
+    content: "\e930"
+}
+
+.ezulix-gra-case-study:before {
+    content: "\e931"
+}
+
+.ezulix-case-study:before {
+    content: "\e932"
+}
+
+.ezulix-gray-sales-market:before {
+    content: "\e934"
+}
+
+.ezulix-sales_market:before {
+    content: "\e936"
+}
+
+.ezulix-gray-food:before {
+    content: "\e937"
+}
+
+.ezulix-food_beverages:before {
+    content: "\e938"
+}
+
+.ezulix-gray-corporate:before {
+    content: "\e939"
+}
+
+.ezulix-corporate:before {
+    content: "\e93a"
+}
+
+.ezulix-gray-manufacturing:before {
+    content: "\e93b"
+}
+
+.ezulix-manufacturing:before {
+    content: "\e93c"
+}
+
+.ezulix-gray-gaming:before {
+    content: "\e93d"
+}
+
+.ezulix-gaming:before {
+    content: "\e93e"
+}
+
+.ezulix-gray_travel:before {
+    content: "\e93f"
+}
+
+.ezulix-travel_hospitality:before {
+    content: "\e940"
+}
+
+.ezulix-gray-automotive:before {
+    content: "\e941"
+}
+
+.ezulix-automotive:before {
+    content: "\e942"
+}
+
+.ezulix-gray-education:before {
+    content: "\e943"
+}
+
+.ezulix-education1:before {
+    content: "\e944"
+}
+
+.ezulix-gray-media:before {
+    content: "\e945"
+}
+
+.ezulix-entertainment:before {
+    content: "\e946"
+}
+
+.ezulix-gray-household:before {
+    content: "\e947"
+}
+
+.ezulix-household:before {
+    content: "\e948"
+}
+
+.ezulix-gray-healthcare:before {
+    content: "\e949"
+}
+
+.ezulix-healthcare:before {
+    content: "\e94a"
+}
+
+.ezulix-gray_transportation:before {
+    content: "\e94b"
+}
+
+.ezulix-transportation:before {
+    content: "\e94c"
+}
+
+.ezulix-gray-real-esate:before {
+    content: "\e94d"
+}
+
+.ezulix-real_esate_ecommerce:before {
+    content: "\e94e"
+}
+
+.ezulix-gray-s-market:before {
+    content: "\e94f"
+}
+
+.ezulix-stock-market:before {
+    content: "\e950"
+}
+
+.ezulix-gray_banking:before {
+    content: "\e951"
+}
+
+.ezulix-banking_finance:before {
+    content: "\e952"
+}
+
+.ezulix-gray-blog:before {
+    content: "\e953"
+}
+
+.ezulix-blog:before {
+    content: "\e954"
+}
+
+.ezulix-gray-career:before {
+    content: "\e955"
+}
+
+.ezulix-career:before {
+    content: "\e956"
+}
+
+.ezulix-gray-client-review:before {
+    content: "\e957"
+}
+
+.ezulix-client-review:before {
+    content: "\e958"
+}
+
+.ezulix-gray-aboutus:before {
+    content: "\e959"
+}
+
+.ezulix-aboutus:before {
+    content: "\e95a"
+}

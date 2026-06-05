@@ -11,3 +11,1145 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.faq-answer,.tech-content {
+    max-height: 0;
+    overflow: hidden
+}
+
+.faq-answer,.faq-item,.software-approch,.stack-menu,.tech-content,.tech-item,.techstack-tab {
+    overflow: hidden
+}
+
+.service_banner {
+    padding: 150px 0
+}
+
+.software_development_banner {
+    /* background: url("/assets/image/development-service/software-development.webp") center/cover; */
+    background-color: #000;
+    z-index: 1;
+    position: relative
+}
+
+.overlay::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(0deg,#000000c7,#00000066);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1
+}
+
+.badge-bg-2::after,.badge-bg::after {
+    position: absolute;
+    border-radius: 10px;
+    height: 200px;
+    background: linear-gradient(134.31deg,#1263f7 1.07%,#034fd9 99.34%);
+    width: 200px;
+    z-index: -1;
+    content: ""
+}
+
+.sub_heading {
+    display: inline-block;
+    background: rgba(23,105,255,.1);
+    padding: 4px 10px;
+    border-radius: 10px;
+    color: #1769ff;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.bg-blue {
+    background: rgba(222,230,245,.5)
+}
+
+.badge-wrapper {
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 0 21.9px 0 rgba(0,0,0,.25);
+    border-radius: 10px;
+    margin: 15px
+}
+
+.badge-bg::after {
+    top: 25px;
+    left: 25px
+}
+
+.badge-bg-2::after {
+    bottom: 25px;
+    right: 25px
+}
+
+#active-line,.software-development-roadmap::before {
+    width: 2px;
+    transform: translateX(-50%);
+    position: absolute
+}
+
+.achivement-tag img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 230px
+}
+
+.achivemnt-badge-block {
+    padding: 20px
+}
+
+.software-development-roadmap {
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0
+}
+
+.software-development-roadmap::before {
+    content: "";
+    left: 50%;
+    top: 50px;
+    height: 90%;
+    bottom: 0;
+    background: #d1d9e0
+}
+
+#active-line {
+    left: 50%;
+    background: #f47b20;
+    z-index: 2;
+    height: 0;
+    transition: height .1s linear
+}
+
+.software-development-step {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 3
+}
+
+.software-development-step:nth-child(2n) {
+    flex-direction: row
+}
+
+.content-box {
+    width: 42%;
+    opacity: .3;
+    transition: .6s
+}
+
+.visual-box {
+    width: 42%;
+    display: flex;
+    justify-content: end;
+    align-items: center
+}
+
+.visual-box-left {
+    justify-content: start!important
+}
+
+.visual-box img {
+    width: 120px;
+    height: 120px;
+    filter: grayscale(.9);
+    opacity: .2;
+    transition: .6s
+}
+
+.software-development-step.active .content-box {
+    opacity: 1
+}
+
+.software-development-step.active .visual-box img {
+    stroke: #f47b20;
+    stroke-width: 1.5;
+    filter: grayscale(1);
+    opacity: 1;
+    transform: scale(1.1);
+    filter: drop-shadow(0 5px 15px rgba(244, 123, 32, .2))
+}
+
+.number-bubble {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid #d1d9e0;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    transition: .4s
+}
+
+.software-development-step.active .number-bubble {
+    background: #f47b20;
+    color: #fff;
+    border-color: #f47b20
+}
+
+.text-right {
+    text-align: right
+}
+
+@media (max-width: 768px) {
+    #active-line,.number-bubble,.software-development-roadmap::before {
+        left:30px;
+        transform: none
+    }
+
+    .software-development-step,.software-development-step:nth-child(2n) {
+        flex-direction: column;
+        align-items: flex-start
+    }
+
+    .content-box,.visual-box {
+        width: 85%;
+        margin-left: 60px;
+        text-align: left
+    }
+
+    .visual-box {
+        order: -1;
+        justify-content: flex-start;
+        margin-bottom: 20px
+    }
+
+    .number-bubble {
+        transform: translate(-50%,0);
+        top: 0
+    }
+}
+
+.development-project-img img {
+    width: 100%;
+    height: 100%
+}
+
+.development-projects {
+    box-shadow: 0 0 23.9px 0 rgba(0,0,0,.25);
+    border-radius: 10px
+}
+
+.horizontal-projects {
+    display: grid;
+    grid-template-columns: 35% 65%
+}
+
+.development-project-content {
+    padding: 40px
+}
+
+.custom-cta-btn.case-study-btn {
+    background: 0 0;
+    border: 1px solid #f58634;
+    color: #f58634
+}
+
+.custom-cta-btn.case-study-btn:hover {
+    background: #f58634
+}
+
+.custom-cta-btn.case-study-btn span {
+    color: #f58634;
+    transition: .2s
+}
+
+.custom-cta-btn.case-study-btn:hover span,.digitel-wrapper:hover .transformation-cta span,.digitel-wrapper:hover h3,.digitel-wrapper:hover p {
+    color: #fff
+}
+
+.our-technology {
+    background: linear-gradient(119.34deg,#fff .96%,#dbe1ff 100%)
+}
+
+.software-approch {
+    background: #f9f9f9
+}
+
+.approch-icon,.pill,.tech-item {
+    background: #fff
+}
+
+.our-tech-img {
+    position: sticky;
+    top: 110px
+}
+
+.approch-icon {
+    display: inline-flex;
+    border-bottom: 5px solid #f58634;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    padding: 25px
+}
+
+.approch-icon::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 1px;
+    right: -185px;
+    width: 150px;
+    background: 0 0;
+    border-top: 2px dashed #f58634;
+    content: ""
+}
+
+.col-lg-3:last-child .approch-icon::after,.stack-content .stack-grid {
+    display: none
+}
+
+.approch-wrapper {
+    padding: 25px
+}
+
+.tech-item {
+    border: 2px solid #e6e6e6;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 2px solid #eb8031
+}
+
+.tech-header {
+    padding: 15px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative
+}
+
+.tech-item.active .tech-header {
+    color: #f58634;
+    background: #ff862c0f
+}
+
+.tech-content {
+    padding: 0 20px;
+    transition: .4s
+}
+
+.tech-item.active .tech-content {
+    padding: 15px 20px 20px;
+    max-height: fit-content
+}
+
+.tech-content ul {
+    padding-left: 20px
+}
+
+.tech-content li {
+    margin-bottom: 8px
+}
+
+.pill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px auto 0
+}
+
+.pill {
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: transform .2s;
+    cursor: pointer
+}
+
+.pill:hover {
+    transform: translateY(-2px)
+}
+
+.pill span {
+    font-weight: 600;
+    color: #374151;
+    font-size: .9rem;
+    white-space: nowrap
+}
+
+.icon-circle {
+    background: linear-gradient(180deg,#f58634 0,#ff720a 100%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.icon-circle img {
+    width: 25px;
+    filter: brightness(1111)
+}
+
+.testimonials-wrapper {
+    background: 0 0!important;
+    padding: 0!important;
+    box-shadow: none!important;
+    border-radius: 10px;
+    margin-top: 0!important;
+    margin-left: 0!important;
+    z-index: 1;
+    position: relative
+}
+
+.outsource-wrapper {
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    height: 350px;
+    margin-top: 50px
+}
+
+.bottom-number {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    font-size: 45px;
+    font-weight: 800;
+    color: transparent;
+    -webkit-text-stroke: 1px #f586346e;
+    line-height: 1
+}
+
+.top-gap {
+    margin-top: 150px
+}
+
+.outsource-development {
+    padding: 100px 0 150px;
+    background: #f9f9f9;
+    overflow: hidden
+}
+
+.shape-line img {
+    position: absolute;
+    top: 20px;
+    left: 50%
+}
+
+.shape-line-2 img {
+    position: absolute;
+    top: -10px;
+    left: 50%
+}
+
+.digitel-wrapper {
+    position: relative;
+    transition: .3s
+}
+
+.custom-cta-btn.transformation-cta {
+    background: 0 0
+}
+
+.custom-cta-btn.transformation-cta span {
+    color: #000
+}
+
+.transformation-content {
+    box-shadow: 0 0 30.7px 0 rgba(167,167,167,.25);
+    padding: 30px;
+    border-radius: 10px;
+    background: #fff
+}
+
+.digitel-wrapper:hover .transformation-content,.transformation-icon {
+    background: linear-gradient(134.31deg,#1263f7 1.07%,#034fd9 99.34%)
+}
+
+.transformation-icon {
+    padding: 15px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    position: relative;
+    margin: 30px auto
+}
+
+.transformation-icon.left-icon {
+    margin-right: 90px
+}
+
+.transformation-icon.right-icon {
+    margin-left: 90px
+}
+
+.arrow-shape.position-relative {
+    width: 200px
+}
+
+.arrow-shape .shape-arrow-1 {
+    position: absolute;
+    top: -45px;
+    right: -12px
+}
+
+.arrow-shape .shape-arrow-2 {
+    position: absolute;
+    top: -103px;
+    right: -13px
+}
+
+.arrow-shape .shape-arrow-3 {
+    position: absolute;
+    top: -45px;
+    left: -180px
+}
+
+.arrow-shape .shape-arrow-4 {
+    position: absolute;
+    top: -105px;
+    left: -183px
+}
+
+.why-data-wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #fff;
+    background: rgba(255,255,255,.2);
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%
+}
+
+.why-inner-wrap {
+    padding: 80px;
+    background: linear-gradient(337.13deg,#0f2672 2.44%,#0a3e9c 97.69%);
+    border-radius: 20px
+}
+
+.faq-section {
+    background: rgba(222,230,245,.5);
+    padding: 80px 20px
+}
+
+.faq-item {
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+    transition: .3s;
+    border-left: 4px solid transparent
+}
+
+.faq-item.active {
+    border-left: 4px solid #ff5600;
+    box-shadow: 0 6px 18px rgba(0,0,0,.12)
+}
+
+.faq-question {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: color .3s
+}
+
+.faq-item.active .faq-question span,.faq-question:hover {
+    color: #ff5600
+}
+
+.faq-question i {
+    font-size: 18px;
+    transition: transform .3s,color .3s;
+    color: #666
+}
+
+.faq-item.active .faq-question i {
+    transform: rotate(180deg);
+    color: #ff5600
+}
+
+.faq-answer {
+    opacity: 0;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    transition: .4s
+}
+
+.faq-item.active .faq-answer {
+    max-height: 100%;
+    opacity: 1;
+    padding: 0 20px 20px
+}
+
+.faq-item.hidden {
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
+    transition: .4s ease-in-out
+}
+
+.show-more-btn {
+    border-bottom: 1px solid #f58634;
+    display: inline-block;
+    margin: 20px auto 0;
+    padding: 0;
+    color: #f58634;
+    font-size: 18px;
+    border: none;
+    background: 0 0;
+    cursor: pointer;
+    transition: background .3s
+}
+
+.stack-content .stack-grid.active,.stack-grid {
+    display: grid
+}
+
+.client-slider .slide-card {
+    height: fit-content!important;
+    transform: none!important
+}
+
+.client-slider .slide-card.active {
+    transform: none!important
+}
+
+.techstack-tab {
+    background: linear-gradient(337.13deg,#0f2672 2.44%,#0a3e9c 97.69%);
+    padding: 100px 0
+}
+
+.stack-menu {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.18)
+}
+
+.stack-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: #ffebcd
+}
+
+.stack-menu li {
+    padding: 18px 35px;
+    font-size: 20px;
+    color: #374151;
+    cursor: pointer;
+    position: relative;
+    transition: .25s;
+    border-bottom: .5px solid #e2dede
+}
+
+.stack-menu li.active {
+    font-weight: 500;
+    background: #fff;
+    color: #f97d21
+}
+
+.stack-menu li.active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #f97d21;
+    border-radius: 0 4px 4px 0
+}
+
+.stack-menu li:not(.active):hover {
+    background: #f9fafb
+}
+
+.stack-layout {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    gap: 45px;
+    align-items: flex-start;
+    position: relative;
+    z-index: 11
+}
+
+.section-title {
+    position: relative;
+    z-index: 11
+}
+
+.stack-grid {
+    grid-template-columns: repeat(5,1fr);
+    gap: 22px
+}
+
+.tech-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: .3s;
+    border: .5px solid #f58634;
+    box-shadow: 0 0 20.8px 0 rgba(0,0,0,.25)
+}
+
+.tech-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 28px 55px rgba(0,0,0,.25)
+}
+
+.tech-card img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px
+}
+
+.tech-card span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #111827
+}
+
+@media (max-width: 992px) {
+    .stack-layout {
+        grid-template-columns:1fr
+    }
+
+    .stack-grid {
+        grid-template-columns: repeat(3,1fr)
+    }
+}
+
+@media (max-width: 640px) {
+    .stack-grid {
+        grid-template-columns:repeat(2,1fr)
+    }
+
+    .section-title h2 {
+        font-size: 22px
+    }
+}
+
+@media (max-width: 1400px) {
+    .approch-icon::after {
+        right:-165px
+    }
+
+    .shape-line-2 img {
+        top: 0
+    }
+
+    .badge-bg-2::after,.badge-bg::after {
+        height: 170px;
+        width: 170px
+    }
+}
+
+@media (max-width: 1200px) {
+    .approch-wrapper {
+        padding:10px
+    }
+
+    .approch-icon::after {
+        right: -150px
+    }
+
+    .stack-grid {
+        grid-template-columns: repeat(4,1fr)
+    }
+
+    .stack-layout {
+        gap: 20px
+    }
+
+    .shape-line-2 img {
+        top: 20px
+    }
+
+    .text-end {
+        text-align: start
+    }
+
+    .custom-cta-btn.transformation-cta {
+        background: 0 0;
+        padding: 10px 0
+    }
+
+    .badge-bg-2::after,.badge-bg::after {
+        height: 140px;
+        width: 140px
+    }
+}
+
+@media (max-width: 991px) {
+    .horizontal-projects {
+        display:grid;
+        grid-template-columns: 100%;
+        height: 100%
+    }
+
+    .development-projects {
+        box-shadow: 0 0 23.9px 0 rgba(0,0,0,.25);
+        border-radius: 20px
+    }
+
+    .approch-icon::after,.shape-line img,.shape-line-2 img,.transform-img {
+        display: none
+    }
+
+    .top-gap {
+        margin-top: 0
+    }
+
+    .outsource-wrapper {
+        margin: 10px 0
+    }
+
+    .transformation-icon.left-icon {
+        margin-right: 90px;
+        display: none
+    }
+
+    .transformation-icon.right-icon {
+        margin-left: 90px;
+        display: none
+    }
+}
+
+@media (max-width: 767px) {
+    .stack-grid {
+        grid-template-columns:repeat(3,1fr)
+    }
+
+    .development-project-content {
+        padding: 25px
+    }
+}
+
+@media (max-width: 576px) {
+    .software-development-step {
+        margin-bottom:70px
+    }
+
+    .visual-box img {
+        width: 60px;
+        height: 60px
+    }
+
+    .stack-grid {
+        grid-template-columns: repeat(2,1fr)
+    }
+
+    .why-inner-wrap {
+        padding: 30px
+    }
+
+    .achivement-tag img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 170px
+    }
+}
+
+@media (max-width: 500px) {
+    .badge-wrapper {
+        padding:30px
+    }
+
+    .badge-bg-2::after,.badge-bg::after {
+        height: 110px;
+        width: 110px
+    }
+}
+
+@media (max-width: 420px) {
+    .content-box,.visual-box {
+        width:100%;
+        margin-left: 0;
+        text-align: start
+    }
+
+    #active-line,.number-bubble,.software-development-roadmap::before {
+        display: none
+    }
+
+    .software-development-step {
+        margin-bottom: 30px
+    }
+
+    .stack-menu li {
+        padding: 15px;
+        font-size: 18px
+    }
+
+    .tech-card {
+        padding: 10px
+    }
+
+    .tech-card img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+        margin-bottom: 10px
+    }
+
+    .icon-circle img {
+        width: 20px;
+        filter: brightness(1111)
+    }
+
+    .icon-circle {
+        width: 30px;
+        height: 30px
+    }
+
+    .pill span {
+        font-size: 10px
+    }
+
+    .pill {
+        padding: 10px 12px
+    }
+
+    .pill-grid {
+        gap: 9px
+    }
+
+    .outsource-wrapper {
+        height: 300px;
+        margin-top: 50px
+    }
+
+    .badge-wrapper {
+        padding: 20px;
+        margin: 0
+    }
+
+    .badge-bg-2::after,.badge-bg::after {
+        height: 80px;
+        width: 80px
+    }
+
+    .achivement-tag img {
+        width: 120px
+    }
+
+    .badge-bg::after {
+        top: 12px;
+        left: 12px
+    }
+
+    .badge-bg-2::after {
+        bottom: 12px;
+        right: 12px
+    }
+}
+
+@media (max-width: 320px) {
+    .outsource-wrapper {
+        height:fit-content;
+        margin-top: 50px
+    }
+}
+
+
+
+
+/* मुख्य रैपर जो पूरे स्पेस को कंट्रोल करेगा */
+.tp-payment-method__main-circle {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* बीच का मुख्य लोगो (Hub) */
+.tp-payment-method__main-img {
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+    z-index: 10;
+    border: 2px solid #f1f1f1;
+}
+
+/* हर टेक्नोलॉजी नोड के लिए बेसिक स्टाइल */
+.single-technology {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    transition: all 0.3s ease;
+}
+
+/* गोल सफेद बॉक्स जिसके अंदर आइकन हैं */
+.techno-circle-box {
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.06);
+    margin-bottom: 8px;
+}
+
+.techno-circle-box img {
+    object-fit: contain;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+/* टेक्स्ट की स्टाइल (जैसी इमेज में पतली और बारीक है) */
+.single-technology p {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+/* ========================================================
+   पोजीशनिंग (तस्वीर के अनुसार सटीक लोकेशन्स)
+   ======================================================== */
+
+/* 1. .Net (निचले बाएं कोने में सबसे दूर) */
+.custom-technology-1 { top: 65%; left: 10%; }
+
+/* 2. React JS (निचले केंद्र-बाएं में) */
+.custom-technology-2 { top: 70%; left: 38%; }
+
+/* 3. 7+ Years Experience (कैलेंडर - नीचे बाएं) */
+.custom-technology-3 { top: 68%; left: 25%; }
+
+/* 4. Angular JS (मध्यम बाएं) */
+.custom-technology-4 { top: 40%; left: 20%; }
+
+/* 5. 100+ Expert Team (ऊपरी बाएं) */
+.custom-technology-5 { top: 15%; left: 15%; }
+
+/* 6. NodeJS (ऊपरी केंद्र-बाएं) */
+.custom-technology-6 { top: 10%; left: 30%; }
+
+/* 7. PHP (ऊपर केंद्र के पास) */
+.custom-technology-7 { top: 12%; left: 42%; }
+
+/* 8. MySQL (ऊपर केंद्र-दाएं) */
+.custom-technology-8 { top: 14%; left: 58%; }
+
+/* 9. JavaScript (ऊपरी दाएं) */
+.custom-technology-9 { top: 12%; left: 70%; }
+
+/* 10. 150+ Business Partners (सबसे ऊपर दाएं कोने में) */
+.custom-technology-10 { top: 10%; left: 85%; }
+
+/* 11. MongoDB (मध्यम ऊपरी दाएं) */
+.custom-technology-11 { top: 28%; left: 72%; }
+
+/* 12. 2000+ Satisfied Clients (बिल्कुल सीधे दाएं कोने में) */
+.custom-technology-12 { top: 42%; left: 85%; }
+
+/* 13. Python (मध्यम निचले दाएं) */
+.custom-technology-13 { top: 52%; left: 68%; }
+
+/* 14. Firebase (निचले दाएं कोने में सबसे दूर) */
+.custom-technology-14 { top: 70%; left: 78%; }
+
+/* 15. SQL Server (नीचे केंद्र-दाएं) */
+.custom-technology-15 { top: 75%; left: 62%; }
+
+/* 16. Java (बिल्कुल नीचे केंद्र में) */
+.custom-technology-16 { top: 68%; left: 52%; }
+
+
+/* ========================================================
+   हल्की हरी कनेक्टिंग लाइन्स (Connecting Lines Effect)
+   ======================================================== */
+/* इमेज जैसी बारीक लाइनें देने के लिए हम बैकग्राउंड में एक लाइट ग्रैडिएंट पैटर्न 
+या SVG का उपयोग कर सकते हैं। एक आसान तरीका CSS lines का है: */
+
+.tp-payment-method__main-circle::before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    /* केंद्र से निकलती हुई किरणों का भ्रम पैदा करने के लिए */
+    background: radial-gradient(circle, rgba(40,167,69,0.15) 0%, rgba(255,255,255,0) 70%);
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* होवर इफेक्ट्स */
+.single-technology:hover .techno-circle-box {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 30px rgba(40, 167, 69, 0.2);
+}
+
+/* ========================================================
+   रिस्पॉन्सिव डिज़ाइन (Mobile / Tablet Responsive)
+   ======================================================== */
+@media (max-width: 991px) {
+    .tp-payment-method__main-circle {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 40px 10px;
+    }
+    .tp-payment-method__main-img {
+        display: none; /* मोबाइल पर बीच वाला बड़ा सर्कल हटा दें */
+    }
+    .single-technology {
+        position: static !important; /* एब्सोल्यूट पोजीशन हटाकर नार्मल ग्रिड बना दें */
+        width: 30%;
+    }
+}
+
+@media (max-width: 576px) {
+    .single-technology {
+        width: 45%;
+    }
+}

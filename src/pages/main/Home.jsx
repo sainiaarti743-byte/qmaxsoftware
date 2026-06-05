@@ -22,6 +22,10 @@ const Home = () => {
         video.play().catch(() => { });
     }, []);
 
+    const showTab = (tabIndex) => {
+  console.log(tabIndex);
+};
+
     return (
         <>
             <div className="home-page-wrapper" role="main" aria-label="Homepage Main Content">
@@ -30,7 +34,7 @@ const Home = () => {
                     <video
                         ref={videoRef}
                         className="banner-video"
-                        poster="/assets/image/video/poster.webp"
+                        poster="https://ezulix.com/assets/image/video/poster.webp"
                         autoPlay
                         loop
                         muted
@@ -73,7 +77,7 @@ const Home = () => {
                                             <img src="/assets/image/home/banner-icon/iot.png" width="24" height="24" alt="IOT Icon" /> IOT
                                         </h2>
                                     </div>
-                                    <a href="javascript:void(0);" role="button" className="custom-cta-btn mt-4" onclick="openPopup()"><span> Get a Free AI Consultation </span></a>
+                                    <a href="#" role="button" className="custom-cta-btn mt-4" onClick={(e) => e.preventDefault()}><span> Get a Free AI Consultation </span></a>
                                 </div>
                             </div>
 
@@ -118,12 +122,12 @@ const Home = () => {
                         <div className="row align-items-center">
                             <div className="col-xxl-5 col-xl-4 col-lg-4">
                                 <div className="section-title choose-ez-title">
-                                    <h2 className="text-black fs-38 fw-semibold"> <span className="text-color"> Ezulix - </span> Software Development Company in Gurgaon
+                                    <h2 className="text-black fs-38 fw-semibold"> <span className="text-color"> Qmax - </span> Software Development Company in Gurgaon
 
 
                                     </h2>
-                                    <p className="text-black fs-18 fw-regular mt-3">Among various software development companies in India, Ezulix is trusted worldwide for its dedicated, reliable, and top-notch IT services and solutions. With over a decade of experience, Ezulix is renowned for its fully client-centric
-                                        services. Currently, established as a leading software development company in Gurgaon (now Gurugram), Ezulix provides managed IT services worldwide.
+                                    <p className="text-black fs-18 fw-regular mt-3">Among various software development companies in India, Qmax is trusted worldwide for its dedicated, reliable, and top-notch IT services and solutions. With over a decade of experience, Qmax is renowned for its fully client-centric
+                                        services. Currently, established as a leading software development company in Gurgaon (now Gurugram), Qmax provides managed IT services worldwide.
 
                                     </p>
                                 </div>
@@ -169,7 +173,7 @@ const Home = () => {
                                                 <div className="choose-content">
                                                     <h3 className="fs-22 fw-semibold mt-3">Full Product Lifecycle  </h3>
                                                     <p className="fw-semibold text-white mt-2" style={{ fontSize: '14px' }}>From Idea to Launch to Maintenance</p>
-                                                    <p className="fs-16 fw-regular text-white">At Ezulix, we take care of your full Software Development Lifecycle. From idea enhancement to development and post-development maintenance.</p>
+                                                    <p className="fs-16 fw-regular text-white">At Qmax, we take care of your full Software Development Lifecycle. From idea enhancement to development and post-development maintenance.</p>
                                                 </div>
                                             </div>
 
@@ -204,7 +208,7 @@ const Home = () => {
                         <div className="row solution-row1">
                             <div className="col-lg-7 col-md-12 col-sm-12 solution-heading-block">
                                 <div className="section-title">
-                                    <h2 className="text-black fs-38 fw-semibold">What Makes <span className="text-color"> Ezulix the Best </span><br />Custom Software Development Company? </h2>
+                                    <h2 className="text-black fs-38 fw-semibold">What Makes <span className="text-color"> Qmax the Best </span><br />Custom Software Development Company? </h2>
                                 </div>
                             </div>
                         </div>
@@ -567,7 +571,7 @@ const Home = () => {
                                     <div className="guidance-wrap mt-4 ">
                                         <img src="/assets/image/home/maintenance.png" width="30" alt="Maintenance Icon" />
                                         <h3 className="fs-22 fw-semibold text-black mt-2">Maintenance</h3>
-                                        <p className="fs-18 fw-regular mt-2">Post-development, as well, team Ezulix offers quality assurance and continued maintenance and technical support lifetime to its clients. Choose the best app developers and leave troubleshooting, software updates, and technical
+                                        <p className="fs-18 fw-regular mt-2">Post-development, as well, team Qmax offers quality assurance and continued maintenance and technical support lifetime to its clients. Choose the best app developers and leave troubleshooting, software updates, and technical
                                             glitches up to us. Stay focused on your work. </p>
                                     </div>
                                     <div className="guidance-wrap mt-4 ">
@@ -577,189 +581,13 @@ const Home = () => {
                                         <p className="fs-18 fw-regular mt-2">Revamping and upgrading the age-old legacy software solutions with the latest tech is one of our core expertise. Renew your legacy system without losing its core functionalities and brand image. We help you move to modern
                                             tech and design.</p>
                                     </div>
-                                    <a href="javascript:void(0)" onclick="openPopup()" className=" custom-cta-btn mt-5" style={{ transform: 'rotate(0)', display: 'inline-block' }} role="button"><span>Share Your Requirements <i className="fa-solid fa-arrow-up"></i></span></a>
+                                    <a href="#" onClick={(e) => e.preventDefault()} className=" custom-cta-btn mt-5" style={{ transform: 'rotate(0)', display: 'inline-block' }} role="button"><span>Share Your Requirements <i className="fa-solid fa-arrow-up"></i></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                {/* <section className="home_industry section-padding position-relative">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-9">
-                        <div className="subheading">
-                            <h2 className="fs-18 fw-medium mb-2">Industries</h2>
-                        </div>
-                        <div className="section-title">
-                            <h2 className="text-black fs-38 fw-semibold">We’re A Global <span className="text-color"> Software Development Company </span> Serving Transformative Business Industries
-                            </h2>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 text-end mt-5">
-                        <div className="custom-nav industries-nav">
-                            <span className="custom-prev" role="button" aria-label="Previous Slide"><i className="fa-solid fa-arrow-left"></i></span>
-                            <span className="custom-next" role="button" aria-label="Next Slide"><i className="fa-solid fa-arrow-right"></i></span>
-                        </div>
-                    </div>
-                </div>
-                <div className="row mt-5">
-                    <div className="col-lg-12">
-                       
-                        <div className="slider-wrapper" id="industries-slider">
-                            <div className="owl-carousel owl-theme industries-carousel">
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/startup.webp" aria-hidden="true" alt="Startups image"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/startup-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Unique Startups</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/corporate.webp" aria-hidden="true" alt="Established Corporates"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/corporate-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Established Corporates</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/healthcare.webp" aria-hidden="true" alt="Healthcare, Fitness & Pharma"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/healthcare-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Healthcare, Fitness & Pharma</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/fintech.webp" aria-hidden="true" alt="Finance & Fintech"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/fintech-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Finance & Fintech </div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/e-commerece.webp" aria-hidden="true" alt="Retail & E-Commerce"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/e-commerece-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Retail & E-Commerce </div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/real-state.webp" aria-hidden="true" alt="Real Estate & Property Tech"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/real-state-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Real Estate & Property Tech</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/education.webp" aria-hidden="true" alt="Education & E-Learning"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/education-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Education & E-Learning</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/cab-booking.webp" aria-hidden="true" alt="Transportation"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/cab-booking-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Transportation </div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/legal-tech.webp" aria-hidden="true" alt="Legal Tech"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/legal-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Legal Tech </div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/aviation.webp" aria-hidden="true" alt="Aviation"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/aviation-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Aviation</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/travel-img.webp" aria-hidden="true" alt="Travel & Hospitality"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/travel-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Travel & Hospitality</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/food-beverage.webp" aria-hidden="true" alt="Food & Beverage"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/food-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Food & Beverage </div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/manufacture.webp" aria-hidden="true" alt="Manufacturing & Industrial"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/manufacture-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Manufacturing & Industrial</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/logistic.webp" aria-hidden="true" alt="Logistics & Supply Chain"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/logistics-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Logistics & Supply Chain</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/media-and-entertain.webp" aria-hidden="true" alt="Media & Entertainment"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/media-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Media & Entertainment</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/transport.webp" aria-hidden="true" alt="Automotive & Transportation"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/auto-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Automotive & Transportation </div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/tech-energy.webp" aria-hidden="true" alt="Energy & Utilities"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/energy-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Energy & Utilities</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/agriculture.webp" aria-hidden="true" alt="Agriculture & Farming Tech"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/agriculture-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Agriculture & Farming Tech</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/construcation.webp" aria-hidden="true" alt="Construction & Infrastructure"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/construction-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Construction & Infrastructure</div>
-                                </div>
-                                <div className="slide">
-                                    <div className="slide-bg">
-                                        <img src="/assets/image/home/industry/government-sector.webp" aria-hidden="true" alt="Government & Public Sector"/>
-                                    </div>
-                                    <div className="slide-icon"><img src="/assets/image/home/industry/govenment-icon.png" width="35px" height="35px" aria-hidden="true" alt="Rocket"/></div>
-                                    <div className="slide-label">Government & Public Sector</div>
-                                </div>
-
-
-                            </div>
-
-                            <div className="custom-dots industries-dots"></div>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </div>
-        </section> */}
+              
 
                 <section className="home-case-study section-padding">
                     <div className="container">
@@ -879,7 +707,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="container testimonials-wrapper">
+                    <div className="container testimonials-wrapper" style={{ height: '500px' }}>
                         <div className="row">
                             <div className="col-lg-9 col-md-8 col-sm-8">
                                 <div className="section-title">
@@ -896,14 +724,14 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mt-5">
+                        <div className="row " style={{ height: '200px', marginTop: '-100px' }}>
                             <div className="col-lg-12">
 
                                 <Swiper
-                                    modules={[Navigation, Autoplay]}
+                                    modules={[Autoplay]}
                                     spaceBetween={20}
                                     slidesPerView={1}
-                                    navigation
+
                                     autoplay={{
                                         delay: 5000,
                                         disableOnInteraction: false,
@@ -913,13 +741,15 @@ const Home = () => {
 
                                     {/* Slide 1 */}
                                     <SwiperSlide>
-                                        <div className="testimonial-slide">
+                                        <div className="testimonial-slide" >
                                             <p className="fs-16 fw-regular text-black">
-                                                Thank you very much, Ezulix, for supporting me in my journey from a YouTube channel to a digital university...
+                                                Thank you very much, Qmax, for supporting me in my journey from a YouTube channel to a digital university...
                                             </p>
 
                                             <div className="client-details mt-4 d-flex align-items-center gap-3">
-                                                <img src="/assets/image/home/clients/equdity.png" alt="" />
+                                                <div style={{ width: '100px' }}>
+                                                    <img src="/assets/image/home/clients/equdity.png" alt="" />
+                                                </div>
                                                 <div>
                                                     <h3 className="fs-20 fw-medium text-gradient">
                                                         Bibhuti Choudhary
@@ -936,11 +766,13 @@ const Home = () => {
                                     <SwiperSlide>
                                         <div className="testimonial-slide">
                                             <p className="fs-16 fw-regular text-black">
-                                                Ezulix is really an amazing team for e-commerce development...
+                                                Qmax is really an amazing team for e-commerce development...
                                             </p>
 
                                             <div className="client-details mt-4 d-flex align-items-center gap-3">
-                                                <img src="/assets/image/home/clients/printyalish.png" alt="" />
+                                                <div style={{ width: '100px' }}>
+                                                    <img src="/assets/image/home/clients/printyalish.png" alt="" />
+                                                </div>
                                                 <div>
                                                     <h3 className="fs-20 fw-medium text-gradient">
                                                         Somesh Sharma
@@ -957,11 +789,13 @@ const Home = () => {
                                     <SwiperSlide>
                                         <div className="testimonial-slide">
                                             <p className="fs-16 fw-regular text-black">
-                                                The Ezulix team built my food delivery web app exactly how I had imagined it...
+                                                The Qmax team built my food delivery web app exactly how I had imagined it...
                                             </p>
 
                                             <div className="client-details mt-4 d-flex align-items-center gap-3">
-                                                <img src="/assets/image/home/clients/trains.png" alt="" />
+                                                <div style={{ width: '100px' }}>
+                                                    <img src="/assets/image/home/clients/trains.png" alt="" />
+                                                </div>
                                                 <div>
                                                     <h3 className="fs-20 fw-medium text-gradient">
                                                         Pankaj Jangid
@@ -978,11 +812,13 @@ const Home = () => {
                                     <SwiperSlide>
                                         <div className="testimonial-slide">
                                             <p className="fs-16 fw-regular text-black">
-                                                Ezulix developed an HRMS that also manages task allocation...
+                                                Qmax developed an HRMS that also manages task allocation...
                                             </p>
 
                                             <div className="client-details mt-4 d-flex align-items-center gap-3">
-                                                <img src="/assets/image/home/clients/letuscode.png" alt="" />
+                                                <div style={{ width: '100px' }}>
+                                                    <img src="/assets/image/home/clients/letuscode.png" alt="" />
+                                                </div>
                                                 <div>
                                                     <h3 className="fs-20 fw-medium text-gradient">
                                                         Leena Nagrani
@@ -1023,7 +859,7 @@ const Home = () => {
                         <div className="col-lg-12">
                             <div className="row mx-auto mt-5 justify-content-center">
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="React Native skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="React Native skill">
                                         <div className="skill-box">
                                             <img src="/assets/image/home/tech-icon/react.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">React Native</h6>
@@ -1031,14 +867,14 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="NodeJS skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="NodeJS skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/node-js.svg" loading="lazy" alt="Technology Icon" />
                                             <h6 className="fs-16 fs-medium pt-3">NodeJS</h6>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="ASP.Net skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="ASP.Net skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/dotnet.svg" loading="lazy" alt="Technology Icon" />
                                             <h6 className="fs-16 fs-medium pt-3">ASP.Net</h6>
                                         </div>
@@ -1046,7 +882,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="Tailwind CSS skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="Tailwind CSS skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/tailwind.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">Tailwind CSS</h6>
                                         </div>
@@ -1054,7 +890,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="Laravel skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="Laravel skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/laravel.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">Laravel</h6>
                                         </div>
@@ -1062,7 +898,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="RESTful APIs skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="RESTful APIs skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/api.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">RESTful APIs</h6>
                                         </div>
@@ -1070,7 +906,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="GraphQL skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="GraphQL skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/graphql.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">GraphQL</h6>
                                         </div>
@@ -1078,7 +914,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="gRPC skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="gRPC skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/grpc.png" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">gRPC</h6>
                                         </div>
@@ -1086,7 +922,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="CodeIgniter skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="CodeIgniter skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/codeigniter.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">CodeIgniter</h6>
                                         </div>
@@ -1094,7 +930,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="HTML5 skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="HTML5 skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/html.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">HTML5</h6>
                                         </div>
@@ -1102,7 +938,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="CSS3 skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="CSS3 skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/css.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3"> CSS3</h6>
                                         </div>
@@ -1110,7 +946,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="JavaScript skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="JavaScript skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/javascript.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">JavaScript</h6>
                                         </div>
@@ -1118,7 +954,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="AWS skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="AWS skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/aws.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">AWS</h6>
                                         </div>
@@ -1126,7 +962,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="Microsoft Azure skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="Microsoft Azure skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/azure.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">Microsoft Azure</h6>
                                         </div>
@@ -1134,7 +970,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="Google Cloud Platform skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="Google Cloud Platform skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/gcp.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">Google Cloud Platform</h6>
                                         </div>
@@ -1142,7 +978,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="DigitalOcean skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="DigitalOcean skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/digitalocean.svg" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">DigitalOcean</h6>
                                         </div>
@@ -1150,7 +986,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="Unity skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="Unity skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/unity.png" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">Unity</h6>
                                         </div>
@@ -1158,7 +994,7 @@ const Home = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-4 col-6 tech-width ">
-                                    <div className="skill-wrap text-center" role="button" tabindex="0" aria-label="Unreal skill">
+                                    <div className="skill-wrap text-center" role="button" tabIndex="0" aria-label="Unreal skill">
                                         <div className="skill-box"><img src="/assets/image/home/tech-icon/unreal.png" alt="Technology Icon" loading="lazy" />
                                             <h6 className="fs-16 fs-medium pt-3">Unreal</h6>
                                         </div>
@@ -1178,9 +1014,9 @@ const Home = () => {
                                 <div className="section-title">
                                     <h2 className="text-black fs-38 fw-semibold"><span className="text-gradient">Hire Top Programmers</span> in India & Get Tailored Solutions: Choose India’s Best Software Development Company</h2>
                                     <p className="text-black fs-18 fw-regular mt-4">Ezulix is a leading Software Development Company that provides bespoke web, app, and software development.
-                                        <br /><br /> With a decade of experience in delivering high-end business intelligence solutions, Ezulix is a renowned IT software Development company recognized worldwide for its client-centered software services. Every Ezulixian
+                                        <br /><br /> With a decade of experience in delivering high-end business intelligence solutions, Qmax is a renowned IT software Development company recognized worldwide for its client-centered software services. Every Qmax
                                         is well-versed in the art and science of designing top-of-the-line business process automation solutions.
-                                        <br /><br /> From on-demand apps for first-of-its-kind startups to premium ERP solutions and complete managed IT services, team Ezulix has a tailored solution for everything.
+                                        <br /><br /> From on-demand apps for first-of-its-kind startups to premium ERP solutions and complete managed IT services, team Qmax has a tailored solution for everything.
                                         <br />
                                         <br /> Experience <span className="text-color"> 100% bespoke software, app, and web development services</span>, and make your dream a reality with us.
                                     </p>
@@ -1212,8 +1048,25 @@ const Home = () => {
                                         <div className="col-lg-10">
                                             <div className="development-tabs" role="tablist">
 
-                                                <div className="development-tab active " onclick="showTab(0)" aria-selected="true" aria-controls="tab1" role="tab">Onshore & On-Site</div>
-                                                <div className="development-tab " onclick="showTab(1)" aria-selected="false" aria-controls="tab1" role="tab">Nearshore & Off-Shore</div>
+                                                <div
+                                                    className="development-tab active"
+                                                    onClick={() => showTab(0)}
+                                                    aria-selected="true"
+                                                    aria-controls="tab1"
+                                                    role="tab"
+                                                >
+                                                    Onshore & On-Site
+                                                </div>
+
+                                                <div
+                                                    className="development-tab"
+                                                    onClick={() => showTab(1)}
+                                                    aria-selected="false"
+                                                    aria-controls="tab1"
+                                                    role="tab"
+                                                >
+                                                    Nearshore & Off-Shore
+                                                </div>
 
                                             </div>
                                             <div id="development-tab-content-0" className="development-tab-content" role="tabpanel" aria-labelledby="tab-btn1">
@@ -1252,7 +1105,7 @@ const Home = () => {
                             <div className="row">
                                 <div className="col-lg-12 text-center">
                                     <div className="section-title">
-                                        <h2 classNameName="text-black fs-38 fw-semibold">We’re an Awarded
+                                        <h2 className="text-black fs-38 fw-semibold">We’re an Awarded
                                             <span className="text-gradient"> <br /> Software & Mobile App Development Agency Worldwide </span>
                                         </h2>
                                     </div>
@@ -1286,9 +1139,9 @@ const Home = () => {
                         <div className="row">
                             <div className="col-xl-10 col-lg-10 col-md-12 mx-auto text-center">
                                 <div className="cta-wrapee">
-                                    <img src="/assets/image/home/shape-1.png" loading="lazy" alt="Shape Image" classNameName="shape1" />
-                                    <img src="/assets/image/home/shape-2.png" loading="lazy" alt="Shape Image" classNameName="shape2" />
-                                    <h2 classNameName="text-white">
+                                    <img src="/assets/image/home/shape-1.png" loading="lazy" alt="Shape Image" className="shape1" />
+                                    <img src="/assets/image/home/shape-2.png" loading="lazy" alt="Shape Image" className="shape2" />
+                                    <h2 className="text-white">
                                         Let’s Develop Something <br /> Great Together
                                     </h2>
                                     <p className="fs-18 text-white fw-regular my-3">Build an unbeatable brand image and get ready for a seamless digital transformation in business. Connect with our team to get premium-grade software and app solutions. </p>
@@ -1309,7 +1162,7 @@ const Home = () => {
                             <div className="col-lg-12 mx-auto mt-3">
                                 <div className="faq-item">
                                     <div className="faq-question">
-                                        <h2 className="fs-22 fw-regular">1. How Much Does Software Development Outsourcing Cost with Ezulix?</h2>
+                                        <h2 className="fs-22 fw-regular">1. How Much Does Software Development Outsourcing Cost with Qmax?</h2>
                                         <i className="fa-solid fa-chevron-down"></i>
                                     </div>
                                     <div className="faq-answer">
@@ -1367,7 +1220,7 @@ const Home = () => {
                                         <i className="fa-solid fa-chevron-down"></i>
                                     </div>
                                     <div className="faq-answer fs-18 fw-regular">
-                                        <p className="fs-18 fw-regular">Yes. Definitely. Ezulix is also a leading custom mobile app development company in India with over 9 years of experience. During our tenure, we have a track record of building over 500 unique mobile apps for startups and
+                                        <p className="fs-18 fw-regular">Yes. Definitely. Qmax is also a leading custom mobile app development company in India with over 9 years of experience. During our tenure, we have a track record of building over 500 unique mobile apps for startups and
                                             tailored software solutions for well-established enterprises. So, you can freely discuss your app requirements with us, and our team will provide idea validation and app development.</p>
                                     </div>
                                 </div>
@@ -1387,7 +1240,7 @@ const Home = () => {
                                         <i className="fa-solid fa-chevron-down"></i>
                                     </div>
                                     <div className="faq-answer fs-18 fw-regular">
-                                        <p className="fs-18 fw-regular">Yes. Ezulix provides full-cycle app development and maintenance services, and app submission is a part of this cycle. Our team submits your app for review on App Store and Play Store, and makes sure that during development
+                                        <p className="fs-18 fw-regular">Yes. Qmax provides full-cycle app development and maintenance services, and app submission is a part of this cycle. Our team submits your app for review on App Store and Play Store, and makes sure that during development
                                             that the app fits the review guidelines. We make sure that your app launches hassle-free on both platforms. </p>
                                     </div>
                                 </div>
@@ -1408,7 +1261,7 @@ const Home = () => {
                                         <i className="fa-solid fa-chevron-down"></i>
                                     </div>
                                     <div className="faq-answer fs-18 fw-regular">
-                                        <p className="fs-18 fw-regular">Definitely. Ezulix has the best React Native app developers who can provide high-performance cross-platform applications. Our cross-platform app development process makes sure that all versions of an app (iOS, Android,
+                                        <p className="fs-18 fw-regular">Definitely. Qmax has the best React Native app developers who can provide high-performance cross-platform applications. Our cross-platform app development process makes sure that all versions of an app (iOS, Android,
                                             Windows, macOS, and others) provide native-like performance and an immersive user experience.
                                         </p>
                                     </div>
@@ -1419,7 +1272,7 @@ const Home = () => {
                                         <i className="fa-solid fa-chevron-down"></i>
                                     </div>
                                     <div className="faq-answer fs-18 fw-regular">
-                                        <p className="fs-18 fw-regular">In a word, yes. Ezulix specializes in custom design and development. So, we can build exclusive designs for your business website. You can get features and functions of your choice. Share your project requirements with
+                                        <p className="fs-18 fw-regular">In a word, yes. Qmax specializes in custom design and development. So, we can build exclusive designs for your business website. You can get features and functions of your choice. Share your project requirements with
                                             us, and our dedicated web developers will ensure effortless execution.
                                         </p>
                                     </div>

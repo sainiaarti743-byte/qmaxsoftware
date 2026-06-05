@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="row">
                 <div className="col-sm-12 col-md-12 col-lg-4">
                     <div className="footer-contact-detail">
-                        <div className="footer-logo"><img alt="Footer Logo" height="47" src="/assets/image/logo.webp" width="197"/></div>
+                        <div className="footer-logo"><img alt="Footer Logo" height="47" src="/assets/image/Qmax.jpg" width="197"/></div>
                         <div className="footer-contact">
                             <div className="single-details overflow-hidden time-widget">
                                 <p className="m-0"><span className="desc-widget-title">Monday - Friday:</span></p>
@@ -37,11 +37,11 @@ const Footer = () => {
                                     </div>
                                     <div className="widget-inner-list">
                                         <ul className="p-0">
-                                            <li><a href="https://ezulix.com/aboutus">About Ezulix</a></li>
-                                            <li><a href="https://ezulix.com/portfolio">Portfolio</a></li>
-                                            <li><a href="https://ezulix.com/aboutus#our-team">Our Team</a></li>
-                                            <li><a href="https://ezulix.com#our-partner">Our Partners</a></li>
-                                            <li><a href="https://ezulix.com/contactus">Contact Us</a></li>
+                                            <li><a href="/aboutus">About Qmax Software Solutions</a></li>
+                                            <li><a href="/portfolio">Portfolio</a></li>
+                                            <li><a href="/aboutus#our-team">Our Team</a></li>
+                                            <li><a href="/our-partner">Our Partners</a></li>
+                                            <li><a href="/contactus">Contact Us</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -55,9 +55,9 @@ const Footer = () => {
                                     </div>
                                     <div className="widget-inner-list">
                                         <ul className="p-0">
-                                            <li><a href="https://ezulix.com/web-development-company">Design & Development</a></li>
-                                            <li><a href="https://ezulix.com/taxi-booking-software-development">Solution</a></li>
-                                            <li><a href="https://ezulix.com/technology">Technology</a></li>
+                                            <li><a href="/web-development-company">Design & Development</a></li>
+                                            <li><a href="/taxi-booking-software-development">Solution</a></li>
+                                            <li><a href="/technology">Technology</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -71,9 +71,9 @@ const Footer = () => {
                                     </div>
                                     <div className="widget-inner-list">
                                         <ul className="p-0">
-                                            <li><a href="https://ezulix.com/career">Careers</a></li>
-                                            <li><a href="https://ezulix.com/blog">Blogs</a></li>
-                                            <li><a href="https://ezulix.com/press-event">Press & Events</a></li>
+                                            <li><a href="/career">Careers</a></li>
+                                            <li><a href="/blog">Blogs</a></li>
+                                            <li><a href="/press-event">Press & Events</a></li>
                                         </ul>
                                     </div>
                                 </div>
