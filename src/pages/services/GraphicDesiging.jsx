@@ -11,7 +11,7 @@ const GraphicDesiging = () => {
                         <div className="row">
                             <div className="col-lg-6 col-md-6 col-sm-4">
                                 <div className="service-banner-details position-absolute">
-                                    <h1 className="fw-semibold text-white fs-42">Best Graphics Design Company </h1>
+                                    <h1 className="fw-semibold text-white fs-42 mt-3">Best Graphics Design Company </h1>
                                     <p className="fw-regular text-white fs-18">Qmax Software strives to provide our clients with the most creative logo and graphic designs possible to help their businesses stand out from the competition.</p><a className="fw-semibold view-btn"  role="button" href="#" onClick={(e) => e.preventDefault()}>Get a Free Consultation <i className="ezulix-long-arrow-right"></i></a>
                                 </div>
                             </div>

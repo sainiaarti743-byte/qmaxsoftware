@@ -11,6 +11,7 @@ const AlMlDevelopment = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6  my-3">
                                 <div className="banner_details ">
+                                    <h2 className="py-2"></h2>
                                     <h1 className="fw-semibold text-white mb-3 fs-48 mt-5">AR, VR, IoT, ML, and AI Software Development Company
 
                                     </h1>

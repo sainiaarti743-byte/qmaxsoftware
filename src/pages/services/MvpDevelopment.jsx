@@ -11,7 +11,7 @@ const MvpDevelopment = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-5 my-3">
                                     <div className="me-lg-5">
-                                        <h1 className="fw-semibold fs-42 mb-4 text-light">#1 MVP Development Company for <span>100% Bespoke</span> Solutions</h1>
+                                        <h1 className="fw-semibold fs-42 mb-4 text-light mt-4">#1 MVP Development Company for <span>100% Bespoke</span> Solutions</h1>
                                         <p className="text-justify fs-20 text-white">Qmax is an award-winning MVP development company with 10+ years of experience. We build fully functional and highly scalable Minimum Viable Products for your digital needs. Low risk, high gain - our motive!</p>
 
                                         <div>

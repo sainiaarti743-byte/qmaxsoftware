@@ -29,7 +29,7 @@ const Home = () => {
     return (
         <>
             <div className="home-page-wrapper" role="main" aria-label="Homepage Main Content">
-                <div className="banner-container">
+                <div className="banner-container ">
 
                     <video
                         ref={videoRef}
@@ -49,8 +49,9 @@ const Home = () => {
                     <div className="banner-content home_page_banner py-5">
                         <div className="row">
                             <div className="container">
-                                <div className="col-lg-11 mx-auto text-center">
-                                    <h1 className="text_box">
+                                <div className="col-lg-11 mx-auto text-center ">
+                                    <h2 className="py-4"></h2>
+                                    <h1 className="text_box ">
                                         <span className="text-color">Simplifying </span> <a href="https://ezulix.com/ai-development-company" role="button">AI for Every Business.</a> <br /> <a href="https://ezulix.com/software-development-services" role="button">Software</a>                                & <a href="https://ezulix.com/mobile-app-development-company" role="button">App</a> Developers Transforming Lives <span className="text-color">Worldwide.</span>
                                     </h1>
                                     <p className="fs-22 fw-regular text-white my-4 ">Growing With</p>

@@ -96,7 +96,7 @@ const RestaurantManagement = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-10 mx-auto col-md-12 col-sm-12">
                                     <div className="banner-content text-center pt-5">
-                                        <h1 className="fw-semibold text-white fs-48 mt-4">India’s Trusted Custom Restaurant Management Software
+                                        <h1 className="fw-semibold text-white fs-48 mt-5">India’s Trusted Custom Restaurant Management Software
                                         </h1>
                                         <p className="fw-regular text-white fs-18 mt-3">Get a 100% customised Restaurant Management System for your business. Embrace a digital solution that scales your user base and resonates with your brand image. Get assured of: </p>
 

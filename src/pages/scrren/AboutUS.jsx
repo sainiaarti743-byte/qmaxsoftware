@@ -245,7 +245,7 @@ export default function AboutUs() {
         {/* ── HERO ── */}
         <section className="ez-hero mt-4">
           <div className="ez-hero-bg" />
-          <div className="ez-hero-content">
+          <div className="ez-hero-content mt-5">
             <h1 style={{ opacity: visible ? 1 : 0, transform: visible ? "translateY(0)" : "translateY(30px)" }}>
               About Us
             </h1>

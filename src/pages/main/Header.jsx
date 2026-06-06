@@ -126,14 +126,14 @@ const Header = () => {
                                         <a href="/" aria-label="Visit Ezulix India Website"><img src="/assets/image/header/india-flag.png" width="20" height="20" alt="India Flag" /></a>
                                         <a style={{ borderBottom: "1px solid orangered" }} className="text-white" href="tel:+919266730534">+91 9266730534</a>
                                     </div>
-                                    <div className="location-details">
+                                    {/* <div className="location-details">
                                         <a href="/" aria-label="Visit Ezulix UK Website"><img src="/assets/image/header/uk-flg.png" width="20" height="20" alt="UK Flag" /></a>
                                         <a style={{ borderBottom: "1px solid orangered" }} className="text-white" href="tel:+447956982975">+44 7956982975</a>
-                                    </div>
-                                    <div className="location-details">
+                                    </div> */}
+                                    {/* <div className="location-details">
                                         <a href="/" aria-label="Visit Ezulix UAE Website"><img src="/assets/image/header/uae.png" width="20" height="20" alt="UAE Flag" /></a>
                                         <a style={{ borderBottom: "1px solid orangered" }} className="text-white" href="tel:+971525410937">+971 525410937</a>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

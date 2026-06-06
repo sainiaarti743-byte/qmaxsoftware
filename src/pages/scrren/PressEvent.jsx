@@ -176,7 +176,7 @@ export default function PressEvents() {
       <section className="pe-hero">
         <div className="pe-hero-bg" />
         <div className="pe-hero-overlay" />
-        <div className="pe-hero-content">
+        <div className="pe-hero-content mt-4">
           <h1>Press &amp; Events</h1>
           <a href="#events" className="pe-hero-btn">GET FREE DEMO →</a>
         </div>

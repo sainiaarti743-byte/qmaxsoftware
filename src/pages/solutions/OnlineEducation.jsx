@@ -12,7 +12,7 @@ const OnlineEducation = ()=>{
       <div className="row">
         <div className="col-lg-6 col-md-6 col-sm-4">
           <div className="service-banner-details position-absolute">
-            <h1 className="fw-semibold text-white fs-42">Engage Your Students with World-Class Online Education Software</h1>
+            <h1 className="fw-semibold text-white fs-42 mt-3">Engage Your Students with World-Class Online Education Software</h1>
             <a className="fw-semibold view-btn" href="#"  onClick={(e) => e.preventDefault()}>GET FREE DEMO <i className="ezulix-long-arrow-right "></i></a>
           </div>
         </div>
