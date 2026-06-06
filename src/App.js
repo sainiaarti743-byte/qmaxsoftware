@@ -66,14 +66,15 @@ import DmtSoftware from './pages/Industries/DmtSoftware';
 import Travel from './pages/Industries/Travl';
 import UtlSoftware from './pages/Industries/UtlSoftware';
 import Recharge from './pages/Industries/Recharge';
+import SEO from './pages/SEO';
 
 function App() {
   return (
     <BrowserRouter>
+    <SEO/>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
         <Route path="/contactus" element={<Contact />} />
         <Route path="/portfolio" element={<Portfolio />} />
 
@@ -116,7 +117,7 @@ function App() {
         <Route path="/technology-tech_photoshop" element={<Photoshop />} />
         <Route path="/php-development-company" element={<Php />} />
         <Route path="/technology-tech_reactjs" element={<Reactjss />} />
-        <Route path="/technology-tech_sql_server " element={<SqlServer />} />
+        <Route path="/technology-tech_sql_server" element={<SqlServer />} />
 
         {/* Solutions */}
         <Route path="/taxi-booking-software" element={<CabBooking />} />
