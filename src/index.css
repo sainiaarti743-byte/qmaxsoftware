@@ -7,6 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -1152,4 +1165,38 @@ code {
     .single-technology {
         width: 45%;
     }
+}
+
+
+.qmax-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.qmax {
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: #0d6efd;
+    text-transform: uppercase;
+}
+
+.tagline {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #fd7e14;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+
+.qmax-logo:hover .qmax {
+    transform: translateY(-1px);
+    transition: 0.3s ease;
 }

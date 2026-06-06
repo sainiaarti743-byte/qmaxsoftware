@@ -6,10 +6,10 @@ const TravelBooking = ()=>{
         
         <>
       <div className="travel-booking-page-wrapper">
-  <div className="banner-content travel-banner position-relative">
+  <div className="travel-banner position-relative">
     <div className="container">
       <div className="row">
-        <div className="col-lg-9 mx-auto col-md-12 col-sm-12">
+        <div className="">
           <div className="banner-content text-center">
             <p className="text-white fs-20 fw-semibold text-gradient mb-0">B2B &amp; B2C Travel Portals </p>
             <h1 className="fw-semibold text-white fs-42">India’s #1 Travel Portal Development Company</h1>

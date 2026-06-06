@@ -547,10 +547,10 @@ export default function Contact() {
         </div>
       </section> */}
 
-      <section class="map-loctions position-relative ">
-        <div class="container-fluid p-0">
+      <section class="map-loctions position-relative bg-light ">
+        <div class="container-fluid ">
           <div class="row">
-            <div class="col-lg-12">
+            <div class="col-sm-12">
               <div class="map-img ">
                 <img src="https://ezulix.com/assets/image/contact/map.png" alt="" />
               </div>

@@ -5,12 +5,12 @@ const InventoryManagement = () => {
         <>
           <div className="inventory-management-page-wrapper">
   <div className="home-banner inventry-banner" id="home">
-    <section className="banner">
+    <section className="banner bg-dark mt-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-9 col-md-12 mx-auto">
             <div className="banner-content text-center">
-              <p className="fw-regular text-white fs-18 mt-2">Turn Your Stock into Cash Right Now With The </p>
+              <p className="fw-regular text-white fs-18 mt-2 mt-5">Turn Your Stock into Cash Right Now With The </p>
               <h1 className="fw-semibold text-white fs-45">#1 Inventory Management Software </h1>
               <p className="fw-regular text-white fs-18 mt-2">Are you still puzzled with manual ways of inventory management? Oh, No, No! Embrace the leading inventory management software development services and get an AI-driven solution. Throw those heavy registers away and unlock: </p>
 

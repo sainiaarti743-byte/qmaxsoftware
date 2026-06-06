@@ -699,7 +699,7 @@ const Home = () => {
                 </section>
 
 
-                <section className="home-testimonials position-relative overflow-hidden section-padding">
+                {/* <section className="home-testimonials position-relative overflow-hidden section-padding">
                     <div className="container-fluid p-0">
                         <div className="col-lg-12 p-0">
                             <div className="testimonial-bg">
@@ -739,7 +739,7 @@ const Home = () => {
                                     loop={true}
                                 >
 
-                                    {/* Slide 1 */}
+                                  
                                     <SwiperSlide>
                                         <div className="testimonial-slide" >
                                             <p className="fs-16 fw-regular text-black">
@@ -762,7 +762,7 @@ const Home = () => {
                                         </div>
                                     </SwiperSlide>
 
-                                    {/* Slide 2 */}
+                                  
                                     <SwiperSlide>
                                         <div className="testimonial-slide">
                                             <p className="fs-16 fw-regular text-black">
@@ -785,7 +785,7 @@ const Home = () => {
                                         </div>
                                     </SwiperSlide>
 
-                                    {/* Slide 3 */}
+                                  
                                     <SwiperSlide>
                                         <div className="testimonial-slide">
                                             <p className="fs-16 fw-regular text-black">
@@ -808,7 +808,7 @@ const Home = () => {
                                         </div>
                                     </SwiperSlide>
 
-                                    {/* Slide 4 */}
+                                  
                                     <SwiperSlide>
                                         <div className="testimonial-slide">
                                             <p className="fs-16 fw-regular text-black">
@@ -836,7 +836,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div >
-                </section >
+                </section > */}
 
 
 

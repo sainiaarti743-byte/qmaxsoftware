@@ -52,7 +52,7 @@ const MobileAppDevelopment = () => {
                     </div>
                 </div>
                 <section className="banner-section" id="particles-js">
-                    <div className="banner-content position-relative">
+                    <div className=" container banner-content position-relative">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-12 col-sm-12 my-3">

@@ -4,15 +4,15 @@ const LearningManagement = ()=>{
     return(
         <>
         <div className="lms-page-wrapper">
-  <section className="position-relative section-padding bg-lightblue lms-banner">
+  <section className="position-relative section-padding bg-dark lms-banner">
     <div>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-9 mx-auto my-3">
             <div className="text-center">
-              <h1 className="fw-semibold fs-42 mb-4">#1 Learning Management System Development Services for Enthusiastic Learners &amp; Trainers</h1>
+              <h1 className="fw-semibold fs-42 mb-4 text-white mt-5">#1 Learning Management System Development Services for Enthusiastic Learners &amp; Trainers</h1>
               <p className="text-justify text-white fs-18 fw-regular">The world has reached the Moon, and you’re still stuck in ‘chalk &amp; talk’ methods for teaching learning? Oh, not good! Embrace the Learning Management System and enjoy a smooth digital transformation today!</p>
-              <ul className="p-0">
+              <ul className="p-0 text-white">
                 <li className="fs-18 fw-regular d-inline-block my-1"><i className="ezulix-check"></i> Automate Classroom Management</li>
                 <li className="fs-18 fw-regular d-inline-block my-1"><i className="ezulix-check"></i> Go Paperless Without Losing Learner Records</li>
                 <li className="fs-18 fw-regular d-inline-block my-1"><i className="ezulix-check"></i> Assess Learner Progress 10x Faster More Consistently</li>

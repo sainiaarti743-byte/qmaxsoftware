@@ -5,15 +5,15 @@ const HelpdeskSoftware = ()=>{
 
         <>
       <div className="helpdesk-software-page-wrapper">
-  <section className="position-relative section-padding  bg-lightblue banner-section">
+  <section className="position-relative section-padding  bg-dark banner-section mt-5">
     <div>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 my-3">
             <div className="">
-              <h1 className="fw-semibold fs-42 mb-4">Advanced HelpDesk Ticketing System to Elevate CX </h1>
-              <p className="text-justify fs-18 fw-regular">It's time to say goodbye to messy/ disordered emails, task confusion, and missed requests. EzulixDesk is an all-in-one helpdesk software especially designed and developed for enterprises to manage employee staff, streamline tasks, and all internal operations under one powerful admin dashboard. </p>
-              <a className="fw-semibold text-black view-btn fs-16" href="#"  onClick={(e) => e.preventDefault()}><span className="text-black">Let's Connect</span> <i className="ezulix-long-arrow-right "></i></a>
+              <h1 className="fw-semibold fs-42 mb-4 text-white">Advanced HelpDesk Ticketing System to Elevate CX </h1>
+              <p className="text-justify fs-18 fw-regular text-white">It's time to say goodbye to messy/ disordered emails, task confusion, and missed requests. EzulixDesk is an all-in-one helpdesk software especially designed and developed for enterprises to manage employee staff, streamline tasks, and all internal operations under one powerful admin dashboard. </p>
+              <a className="fw-semibold text-black view-btn fs-16 text-white" href="#"  onClick={(e) => e.preventDefault()}><span className="text-black">Let's Connect</span> <i className="ezulix-long-arrow-right "></i></a>
             </div>
           </div>
           <div className="col-lg-6 my-3">

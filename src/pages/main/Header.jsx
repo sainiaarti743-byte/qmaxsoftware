@@ -145,10 +145,14 @@ const Header = () => {
                         <div className="col-lg-12 col-md-12 col-sm-12">
                             <div className="inner-header-wrap justify-content-between align-items-center d-flex w-100">
                                 <div className="header-logo position-relative overflow-hidden" style={{ padding: "10px 0" }}>
-                                    <a href="/">
-                                        <h4>Qmax Software Solutions</h4>
-                                        {/* <img className="theme-brand-logo position-relative" src="/assets/image/Qmaxtext.png" width="100" height="40" alt="Brand Logo" /> */}
-                                    </a>
+                                    <Link to="/" className="navbar-brand qmax-logo text-decoration-none">
+                                        <div className="logo-text">
+                                            <span className="qmax">QMAX</span>
+                                            <span className="tagline">Software Solutions</span>
+                                        </div>
+
+                                        {/* <img className="theme-brand-logo position-relative" src="/assets/image/Qmaxtext.png"  alt="Brand Logo" /> */}
+                                    </Link>
                                 </div>
 
                                 <nav className="main-menu menu-bar position-relative d-flex align-items-center" role="navigation">

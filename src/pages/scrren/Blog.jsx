@@ -207,7 +207,7 @@ export default function EzulixBlog() {
   return (
     <>
       <style>{css}</style>
-      <div className="bl-wrap mt-5">
+      <div className="bl-wrap mt-5" style={{marginTop:'100px'}}>
 
         
         <main className="bl-main">

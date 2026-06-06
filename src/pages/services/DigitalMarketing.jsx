@@ -6,7 +6,7 @@ const DigitalMarketing = () => {
 
             <div className="seo-company-india-page-wrapper">
                 <section className="banner-section" id="particles-js">
-                    <div className="banner-content position-relative">
+                    <div className="container banner-content position-relative">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6">
