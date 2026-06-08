@@ -52,8 +52,8 @@ const Home = () => {
                                 <div className="col-lg-11 mx-auto text-center ">
                                     <h2 className="py-5"></h2>
                                     <h1 className="text_box ">
-                                        <span className="text-color text-white">Simplifying </span> <a href="/ai-development-company" role="button">AI for Every Business.</a> <br />
-                                         <a href="/software-development-services" role="button">Software</a>                                & <a href="/mobile-app-development-company" role="button">App</a> Developers Transforming Lives <span className="text-color">Worldwide.</span>
+                                        <span className="text-color text-white">Leading Software Development</span> <a href="/ai-development-company" role="button"> & Digital Marketing Company in Jaipur</a> <br />
+                                         {/* <a href="/software-development-services" role="button">Software</a>& <a href="/mobile-app-development-company" role="button">App</a> Developers Transforming Lives <span className="text-color">Worldwide.</span> */}
                                     </h1>
                                     <p className="fs-22 fw-regular text-white my-4 ">Growing With</p>
                                     <div className="banner-tech">
