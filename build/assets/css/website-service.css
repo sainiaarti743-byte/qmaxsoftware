@@ -3938,7 +3938,7 @@ html {
     position: relative;
     padding: 40px 60px 20px 30px;
     width: 50%;
-    background-image: linear-gradient(to right bottom, #24c2f8, #0084ff, #005cff, #0b0df4)
+    background-image: linear-gradient(to right bottom, #24c2f8, #0C823D, #0C823D, #0C823D)
 }
 
 .fintech-software-page-wrapper .tab-link {
@@ -4192,7 +4192,7 @@ html {
 
 .fintech-software-page-wrapper .cta-wrap {
     padding: 30px;
-    background-image: linear-gradient(to right bottom, #24c2f8, #0084ff, #005cff, #0b0df4);
+    background-image: linear-gradient(to right bottom, #24c2f8, #0C823D, #0C823D, #0C823D);
     border-radius: 30px
 }
 
@@ -4242,7 +4242,7 @@ html {
         position: relative;
         padding: 20px 30px 20px 15px;
         width: 50%;
-        background-image: linear-gradient(to right bottom, #24c2f8, #0084ff, #005cff, #0b0df4)
+        background-image: linear-gradient(to right bottom, #24c2f8, #0C823D, #0C823D, #0C823D)
     }
     .fintech-software-page-wrapper .tab-link {
         font-size: 20px
@@ -7111,7 +7111,7 @@ span.number-sign {
         position: relative;
         padding: 20px 20px 20px 0;
         width: 100%;
-        background-image: linear-gradient(to right bottom, #24c2f8, #0084ff, #005cff, #0b0df4)
+        background-image: linear-gradient(to right bottom, #24c2f8, #0C823D, #0C823D, #0C823D)
     }
     .fintech-software-page-wrapper .services_rt {
         position: relative;
@@ -7423,7 +7423,7 @@ span.number-sign {
     display: inline-block;
     padding: 11px 45px;
     background-color: #fff;
-    color: #f58634;
+    color: #3677A2;
     border-radius: 5px 20px;
     font-size: 20px
 }

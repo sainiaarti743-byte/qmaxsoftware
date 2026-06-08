@@ -62,7 +62,7 @@ code {
     position: absolute;
     border-radius: 10px;
     height: 200px;
-    background: linear-gradient(134.31deg,#1263f7 1.07%,#034fd9 99.34%);
+    background: linear-gradient(134.31deg,#0C823D 1.07%,#4cc87f 99.34%);
     width: 200px;
     z-index: -1;
     content: ""
@@ -73,7 +73,7 @@ code {
     background: rgba(23,105,255,.1);
     padding: 4px 10px;
     border-radius: 10px;
-    color: #1769ff;
+    color: #0C823D;
     font-size: 18px;
     font-weight: 500
 }
@@ -267,16 +267,16 @@ code {
 
 .custom-cta-btn.case-study-btn {
     background: 0 0;
-    border: 1px solid #f58634;
-    color: #f58634
+    border: 1px solid #3677A2;
+    color: #3677A2
 }
 
 .custom-cta-btn.case-study-btn:hover {
-    background: #f58634
+    background: #3677A2
 }
 
 .custom-cta-btn.case-study-btn span {
-    color: #f58634;
+    color: #3677A2;
     transition: .2s
 }
 
@@ -303,7 +303,7 @@ code {
 
 .approch-icon {
     display: inline-flex;
-    border-bottom: 5px solid #f58634;
+    border-bottom: 5px solid #3677A2;
     width: 100px;
     height: 100px;
     align-items: center;
@@ -322,7 +322,7 @@ code {
     right: -185px;
     width: 150px;
     background: 0 0;
-    border-top: 2px dashed #f58634;
+    border-top: 2px dashed #3677A2;
     content: ""
 }
 
@@ -350,7 +350,7 @@ code {
 }
 
 .tech-item.active .tech-header {
-    color: #f58634;
+    color: #3677A2;
     background: #ff862c0f
 }
 
@@ -402,7 +402,7 @@ code {
 }
 
 .icon-circle {
-    background: linear-gradient(180deg,#f58634 0,#ff720a 100%);
+    background: linear-gradient(180deg,#3677A2 0,#569ece 100%);
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -490,7 +490,7 @@ code {
 }
 
 .digitel-wrapper:hover .transformation-content,.transformation-icon {
-    background: linear-gradient(134.31deg,#1263f7 1.07%,#034fd9 99.34%)
+    background: linear-gradient(134.31deg,#0C823D 1.07%,#0C823D 99.34%)
 }
 
 .transformation-icon {
@@ -626,11 +626,11 @@ code {
 }
 
 .show-more-btn {
-    border-bottom: 1px solid #f58634;
+    border-bottom: 1px solid #3677A2;
     display: inline-block;
     margin: 20px auto 0;
     padding: 0;
-    color: #f58634;
+    color: #3677A2;
     font-size: 18px;
     border: none;
     background: 0 0;
@@ -729,7 +729,7 @@ code {
     justify-content: center;
     text-align: center;
     transition: .3s;
-    border: .5px solid #f58634;
+    border: .5px solid #3677A2;
     box-shadow: 0 0 20.8px 0 rgba(0,0,0,.25)
 }
 
@@ -1183,7 +1183,7 @@ code {
     font-size: 42px;
     font-weight: 900;
     letter-spacing: 3px;
-    color: #0d6efd;
+    color: #3677A2;
     text-transform: uppercase;
 }
 
@@ -1191,7 +1191,7 @@ code {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 4px;
-    color: #fd7e14;
+    color:  #0C823D;
     text-transform: uppercase;
     margin-top: 2px;
 }

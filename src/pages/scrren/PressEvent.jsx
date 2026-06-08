@@ -70,15 +70,15 @@ const css = `
     letter-spacing: 1.5px; font-size: 0.88rem;
     transition: background 0.3s, border-color 0.3s;
   }
-  .pe-hero-btn:hover { background: #e85d04; border-color: #e85d04; }
+  .pe-hero-btn:hover { background: #3677A2; border-color: #3677A2; }
 
   /* ── BREADCRUMB ── */
   .pe-breadcrumb {
     padding: 16px 80px; font-size: 0.9rem; color: #888;
   }
   .pe-breadcrumb a { color: #555; text-decoration: none; }
-  .pe-breadcrumb a:hover { color: #e85d04; }
-  .pe-breadcrumb .active { color: #e85d04; }
+  .pe-breadcrumb a:hover { color: #3677A2; }
+  .pe-breadcrumb .active { color: #3677A2; }
   .pe-breadcrumb span { margin: 0 8px; color: #bbb; }
 
   /* ── EVENTS SECTION ── */
@@ -118,7 +118,7 @@ const css = `
     position: absolute; top: -22px; left: 50%;
     transform: translateX(-50%);
     width: 44px; height: 44px; border-radius: 50%;
-    background: #e85d04;
+    background: #3677A2;
     border: 4px solid #fff;
     box-shadow: 0 0 0 3px #e0c4ae;
     z-index: 2;
@@ -139,7 +139,7 @@ const css = `
   }
   .pe-event-date {
     display: inline-block; margin-top: 14px;
-    background: #e85d04; color: #fff;
+    background: #3677A2; color: #fff;
     padding: 4px 14px; border-radius: 20px;
     font-size: 0.82rem; font-weight: 600;
   }

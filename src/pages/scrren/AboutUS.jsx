@@ -26,11 +26,11 @@ const whyUs = [
 ];
 
 const smartValues = [
-  { letter: "S", label: "Simplify",    color: "#e85d04" },
+  { letter: "S", label: "Simplify",    color: "#3677A2" },
   { letter: "M", label: "Managerial",  color: "#f48c06" },
-  { letter: "A", label: "Authentic",   color: "#e85d04" },
+  { letter: "A", label: "Authentic",   color: "#3677A2" },
   { letter: "R", label: "Reliable",    color: "#f48c06" },
-  { letter: "T", label: "Trustworthy", color: "#e85d04" },
+  { letter: "T", label: "Trustworthy", color: "#3677A2" },
 ];
 
 const css = `
@@ -58,12 +58,12 @@ const css = `
   }
   .ez-hero-btn {
     display: inline-block; margin-top: 20px;
-    border: 2px solid #e85d04; color: #fff;
+    border: 2px solid #3677A2; color: #fff;
     padding: 10px 28px; font-weight: 600;
     text-decoration: none; letter-spacing: 1px;
     transition: background 0.3s;
   }
-  .ez-hero-btn:hover { background: #e85d04; color: #fff; }
+  .ez-hero-btn:hover { background: #3677A2; color: #fff; }
 
   /* ── SECTIONS ── */
   .ez-section { padding: 70px 60px; }
@@ -72,10 +72,10 @@ const css = `
   .ez-section-grey  { background: #f5f5f5; }
 
   .ez-divider {
-    width: 60px; height: 3px; background: #e85d04; margin: 0 auto 16px;
+    width: 60px; height: 3px; background: #3677A2; margin: 0 auto 16px;
   }
   .ez-section-title {
-    color: #e85d04; font-weight: 800; font-size: 1.8rem;
+    color: #3677A2; font-weight: 800; font-size: 1.8rem;
     text-align: center; margin-bottom: 10px;
   }
   .ez-section-sub {
@@ -85,7 +85,7 @@ const css = `
 
   /* ── STATS CARD ── */
   .ez-stats-card {
-    background: #e85d04; border-radius: 16px; padding: 36px 30px;
+    background: #3677A2; border-radius: 16px; padding: 36px 30px;
     display: grid; grid-template-columns: 1fr 1fr; gap: 24px;
   }
   .ez-stat-item { color: #fff; display: flex; gap: 12px; align-items: flex-start; }
@@ -95,7 +95,7 @@ const css = `
 
   /* ── FOUNDERS ── */
   .ez-founders-card {
-    background: #e85d04; border-radius: 20px; padding: 40px 30px;
+    background: #3677A2; border-radius: 20px; padding: 40px 30px;
     display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;
   }
   .ez-founder-photo {
@@ -110,7 +110,7 @@ const css = `
     border-radius: 16px; padding: 36px 30px; height: 100%;
   }
   .ez-mv-card.mission { border: 2px solid #222; }
-  .ez-mv-card.vision  { border: 2px solid #e85d04; }
+  .ez-mv-card.vision  { border: 2px solid #3677A2; }
   .ez-mv-title {
     background: #222; color: #fff; text-align: center;
     padding: 10px 0; border-radius: 8px; margin-bottom: 24px;
@@ -132,7 +132,7 @@ const css = `
     transform: rotate(-45deg); color: #fff;
     font-weight: 900; font-size: 1.6rem;
   }
-  .ez-smart-label { font-weight: 700; color: #e85d04; font-size: 1rem; }
+  .ez-smart-label { font-weight: 700; color: #3677A2; font-size: 1rem; }
 
   /* ── TEAM CARD ── */
   .ez-team-card {
@@ -146,7 +146,7 @@ const css = `
     display: flex; align-items: center; justify-content: center;
     font-size: 2.4rem; color: #888; font-weight: 700;
   }
-  .ez-team-info { background: #e85d04; padding: 14px 10px; color: #fff; text-align: center; }
+  .ez-team-info { background: #3677A2; padding: 14px 10px; color: #fff; text-align: center; }
   .ez-team-name { font-weight: 700; font-size: 1rem; }
   .ez-team-role { font-size: 0.8rem; opacity: 0.9; }
 
@@ -175,15 +175,15 @@ const css = `
     font-size: 1.3rem; font-style: italic; font-weight: 600;
     text-align: center; margin: 0;
   }
-  .ez-form-label { color: #e85d04; font-weight: 600; margin-bottom: 6px; display: block; }
+  .ez-form-label { color: #3677A2; font-weight: 600; margin-bottom: 6px; display: block; }
   .ez-form-input {
     width: 100%; padding: 12px 16px; border: 1px solid #ddd;
     border-radius: 8px; font-size: 1rem; outline: none;
     transition: border-color 0.2s;
   }
-  .ez-form-input:focus { border-color: #e85d04; }
+  .ez-form-input:focus { border-color: #3677A2; }
   .ez-submit-btn {
-    background: linear-gradient(135deg,#e85d04,#f48c06);
+    background: linear-gradient(135deg,#3677A2,#f48c06);
     color: #fff; border: none; padding: 14px 60px;
     border-radius: 50px; font-weight: 700; font-size: 1.1rem;
     cursor: pointer; transition: opacity 0.2s;
@@ -264,9 +264,10 @@ export default function AboutUs() {
           <div className="container-fluid">
             <div className="row align-items-center g-4 g-lg-5">
               <div className="col-12 col-lg-6">
-                <h2 style={{ color: "#e85d04", fontWeight: 800, fontSize: "clamp(1.4rem,4vw,2rem)", marginBottom: 16 }}>
+                <h2 style={{ color: "#3677A2", fontWeight: 800, fontSize: "clamp(1.4rem,4vw,2rem)", marginBottom: 16 }}>
                   WHAT DO WE DO?
                 </h2>
+
                 <p style={{ lineHeight: 1.8, color: "#444" }}>
                   In 2015, Qmax Software Pvt. Ltd. was established as a web development company in Jaipur, Rajasthan.
                   With the goal of assisting clients in expanding their enterprises, we began integrating cutting-edge
@@ -314,7 +315,7 @@ export default function AboutUs() {
                 </div>
               </div>
               <div className="col-12 col-lg-7">
-                <h2 style={{ color: "#e85d04", fontWeight: 800, fontSize: "clamp(1.3rem,3.5vw,1.8rem)", marginBottom: 18 }}>
+                <h2 style={{ color: "#3677A2", fontWeight: 800, fontSize: "clamp(1.3rem,3.5vw,1.8rem)", marginBottom: 18 }}>
                   ABOUT US?
                 </h2>
                 <p style={{ lineHeight: 1.8, color: "#444" }}>
@@ -417,7 +418,7 @@ export default function AboutUs() {
                 <div className="col-12 col-sm-6 col-md-4" key={i}>
                   <div
                     className="ez-why-tile"
-                    style={{ background: i === 5 ? "#222" : "#e85d04" }}
+                    style={{ background: i === 5 ? "#222" : "#3677A2" }}
                   >
                     {w}
                   </div>
@@ -439,7 +440,7 @@ export default function AboutUs() {
                 </div>
               </div>
               <div className="col-12 col-lg-7">
-                <h2 style={{ color: "#e85d04", fontWeight: 800, fontSize: "clamp(1.3rem,3vw,1.8rem)", textAlign: "center", marginBottom: 6 }}>
+                <h2 style={{ color: "#3677A2", fontWeight: 800, fontSize: "clamp(1.3rem,3vw,1.8rem)", textAlign: "center", marginBottom: 6 }}>
                   Get a QUOTATION
                 </h2>
                 <p style={{ textAlign: "center", color: "#666", marginBottom: 24 }}>

@@ -123,7 +123,7 @@ const Header = () => {
                             <div className="col-lg-12">
                                 <div className="location-wrapper">
                                     <div className="location-details">
-                                        <a href="/" aria-label="Visit Ezulix India Website"><img src="/assets/image/header/india-flag.png" width="20" height="20" alt="India Flag" /></a>
+                                        <a href="/" aria-label="Visit Qmax India Website"><img src="/assets/image/header/india-flag.png" width="20" height="20" alt="India Flag" /></a>
                                         <a style={{ borderBottom: "1px solid orangered" }} className="text-white" href="tel:+919266730534">+91 9266730534</a>
                                     </div>
                                     {/* <div className="location-details">

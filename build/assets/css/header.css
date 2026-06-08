@@ -20,7 +20,7 @@
 .megamenu-title,
 .navbar-link:hover,
 .title-icon {
-    color: #f58634
+    color: #3677A2
 }
 
 .dropdown-menu a,
@@ -57,7 +57,7 @@
     transform: translateX(-50%) scaleX(0);
     width: 50%;
     height: 2px;
-    background: #f58634;
+    background: #3677A2;
     transition: transform .25s;
     border-radius: 1px
 }
@@ -120,7 +120,7 @@
     transform: translateY(-50%);
     width: 3px;
     height: 0;
-    background: #f58634;
+    background: #3677A2;
     border-radius: 0 2px 2px 0;
     transition: height .2s
 }
@@ -137,7 +137,7 @@
 
 .dropdown-menu a:hover .menu-icon {
     opacity: 1;
-    color: #f58634
+    color: #3677A2
 }
 
 .dropdown-menu a:hover::before,
@@ -243,7 +243,7 @@
     font-size: 15px;
     font-weight: 500;
     color: #fff;
-    background: #f58634;
+    background: #3677A2;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -251,7 +251,7 @@
 }
 
 .btn-primary:hover {
-    background: #f58634;
+    background: #3677A2;
     transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(255, 87, 34, .3)
 }
@@ -296,7 +296,8 @@
 .hamburger {
     width: 24px;
     height: 2px;
-    background: #f58634;
+    background: #3677A2;
+
     position: relative;
     transition: .3s
 }
@@ -307,7 +308,7 @@
     position: absolute;
     width: 24px;
     height: 2px;
-    background: #f58634;
+    background: #3677A2;
     transition: .3s
 }
 
@@ -463,7 +464,7 @@ button:focus:not(:focus-visible) {
     transform: translateY(-50%);
     width: 4px;
     height: 4px;
-    background: #f58634;
+    background: #3677A2;
     border-radius: 50%;
     opacity: 0;
     transition: opacity .2s
@@ -549,7 +550,7 @@ button:focus:not(:focus-visible) {
 }
 
 a#show-popup {
-    background: #f58634;
+    background: #3677A2;
     display: inline-block;
     padding: 10px 20px;
     border-radius: 0;
@@ -838,7 +839,7 @@ span.sBtn-text {
 .location-adress-wrapper {
     border-radius: 8px;
     background: #fff;
-    border: .5px solid #f58634;
+    border: .5px solid #3677A2;
     box-shadow: 0 2px 12.5px 0 rgba(0, 0, 0, .25);
     padding: 20px;
     margin: 20px 0 0
@@ -881,7 +882,7 @@ span.sBtn-text {
     height: 1px;
     bottom: -3px;
     left: 0;
-    background: #f58634
+    background: #3677A2
 }
 
 @media (max-width:991px) {

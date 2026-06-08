@@ -78,7 +78,7 @@ const css = `
     line-height: 1.35;
   }
   .bl-meta { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 14px; font-size: 0.85rem; }
-  .bl-meta-tag { color: #e85d04; font-weight: 600; text-decoration: none; }
+  .bl-meta-tag { color: #3677A2; font-weight: 600; text-decoration: none; }
   .bl-meta-tag:hover { text-decoration: underline; }
   .bl-meta-sep { color: #aaa; }
   .bl-meta-author, .bl-meta-date { color: #666; }
@@ -87,7 +87,7 @@ const css = `
 
   .bl-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
   .bl-read-more {
-    color: #e85d04; font-weight: 600; text-decoration: none; font-size: 0.95rem;
+    color: #3677A2; font-weight: 600; text-decoration: none; font-size: 0.95rem;
     transition: gap 0.2s; display: flex; align-items: center; gap: 4px;
   }
   .bl-read-more:hover { gap: 8px; }
@@ -123,7 +123,7 @@ const css = `
     padding: 14px 16px; cursor: pointer; font-size: 1rem;
     transition: background 0.2s;
   }
-  .bl-search button:hover { background: #e85d04; }
+  .bl-search button:hover { background: #3677A2; }
 
   /* Category */
   .bl-select {
@@ -148,7 +148,7 @@ const css = `
     border-radius: 8px; font-size: 0.92rem; outline: none;
     transition: border-color 0.2s;
   }
-  .bl-eq-input:focus { border-color: #e85d04; }
+  .bl-eq-input:focus { border-color: #3677A2; }
   .bl-eq-select {
     width: 100%; padding: 11px 14px; border: 1px solid #e0e0e0;
     border-radius: 8px; font-size: 0.92rem; outline: none; background: #fff;
@@ -162,9 +162,9 @@ const css = `
     resize: vertical; min-height: 110px; font-family: inherit;
     transition: border-color 0.2s;
   }
-  .bl-eq-textarea:focus { border-color: #e85d04; }
+  .bl-eq-textarea:focus { border-color: #3677A2; }
   .bl-submit {
-    background: linear-gradient(135deg,#e85d04,#f48c06);
+    background: linear-gradient(135deg,#3677A2,#f48c06);
     color: #fff; border: none; border-radius: 50px;
     padding: 12px 0; font-weight: 700; font-size: 1rem;
     width: 100%; cursor: pointer; letter-spacing: 1px;

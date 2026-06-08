@@ -123,7 +123,7 @@ select:not(:invalid) {
   font-size: 16px;
   font-weight: 500;
   color: #fff;
-  background: #f58634;
+  background: #3677A2;
   width: 100%
 }
 
@@ -171,7 +171,7 @@ select:not(:invalid) {
   top: 5px;
   right: 5px;
   font-size: 12px;
-  background: #f58634;
+  background: #3677A2;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -194,7 +194,7 @@ select:not(:invalid) {
 
 .desktop-view-btn,
 .mobile-view-btn {
-  background: linear-gradient(180deg, #f58634, #d37128);
+  background: linear-gradient(180deg, #3677A2, #4d96c7);
   transform: translateX(-206%) rotate(-90deg);
   box-shadow: 0 6px 16px rgba(0, 0, 0, .08);
   transition: transform .45s cubic-bezier(.22, 1, .36, 1), opacity .45s cubic-bezier(.22, 1, .36, 1), box-shadow .3s;
@@ -468,7 +468,7 @@ span.select2-dropdown.select2-dropdown--below {
   padding: 5px 20px !important;
   margin: 10px 0 15px;
   color: var(--bs-white);
-  background: #1263f7 !important;
+  background: #198754 !important;
   width: 100%;
   border-radius: 12px !important;
   transition: .5s ease-in-out;
@@ -519,7 +519,7 @@ span.select2-dropdown.select2-dropdown--below {
   position: absolute;
   top: 0;
   right: 0;
-  background: #2563eb;
+  background: #0C823D;
   color: #fff;
   border-radius: 0 0 0 50%;
   width: 32px;
@@ -539,7 +539,7 @@ span.select2-dropdown.select2-dropdown--below {
 }
 
 .btn-primary {
-  background: #2563eb;
+  background: #0C823D;
   border: none;
   width: 100%;
   font-weight: 600
@@ -632,7 +632,7 @@ li.twiter-icon a svg {
 
 .visit-website-link {
   transition: ease 0.4s;
-  color: #f58634;
+  color: #3677A2;
   display: inline-block;
   font-weight: 500;
   font-size: 18px;
@@ -640,7 +640,7 @@ li.twiter-icon a svg {
 
 .visit-website-link:hover {
   transform: translateX(10px);
-  color: #FF6F04;
+  color: #3677A2;
 }
 
 @media only screen and (max-width:991px) {
@@ -700,7 +700,7 @@ li.twiter-icon a svg {
 }
 
 #accept-btn {
-  background: #007bff;
+  background: #198754;
   color: white;
   padding: 5px 15px;
   border: none;
@@ -710,7 +710,7 @@ li.twiter-icon a svg {
 }
 
 #accept-btn:hover {
-  background: #0056c7;
+  background: #198754;
 }
 
 /* Fade Animation */
@@ -737,7 +737,7 @@ h1.text_box a {
 .color-orange,
 .faq-item.active .faq-question span,
 .faq-question:hover {
-  color: #ff5600
+  color: #3677A2
 }
 
 .text_box {
@@ -747,7 +747,7 @@ h1.text_box a {
 }
 
 .text-wrapper {
-  background: #ff5600;
+  background: #3677A2;
   color: #fff
 }
 
@@ -766,14 +766,14 @@ section.ezulix-choose {
 
 .choose-hrz-wrapper {
   padding: 20px;
-  background: linear-gradient(180deg, #f58634 0, #ff720a 100%);
+  background: linear-gradient(180deg, #3677A2 0, #548fb6 100%);
   box-shadow: 0 1px 49.4px 0 rgba(0 0 0 / 22%);
   border-radius: 20px 0 0;
   color: #fff
 }
 
 .choose-ver-wrapper {
-  background: linear-gradient(134.31deg, #1263f7 1.07%, #034fd9 99.34%);
+  background: linear-gradient(134.31deg, #198754 1.07%, #198754 99.34%);
   box-shadow: 0 1px 49.4px 0 rgb(0 0 0 / 22%);
   padding: 20px;
   color: #fff;
@@ -828,7 +828,7 @@ section.ezulix-choose {
 
 .faq-item.active .faq-question i {
   transform: rotate(180deg);
-  color: #ff5600
+  color: #3677A2
 }
 
 .faq-answer {
@@ -858,11 +858,11 @@ section.ezulix-choose {
 }
 
 .show-more-btn {
-  border-bottom: 1px solid #f58634;
+  border-bottom: 1px solid #3677A2;
   display: inline-block;
   margin: 20px auto 0;
   padding: 0;
-  color: #f58634;
+  color: #3677A2;
   font-size: 18px;
   border: none;
   background: 0 0;
@@ -887,8 +887,8 @@ section.ezulix-choose {
 }
 
 .development-tab.active {
-  border-bottom: 2px solid #fd7612;
-  color: #fd7612
+  border-bottom: 2px solid #3677A2;
+  color: #3677A2
 }
 
 .development-tab-content {
@@ -994,7 +994,7 @@ section.ezulix-choose {
 
 
     .text-wrapper {
-        background: rgba(245, 134, 52, 1);
+        background: #3677A2;
         color: white;
     }
 
@@ -1016,7 +1016,7 @@ section.ezulix-choose {
     .visit-project i {
         border: 1px solid #6464643b;
         padding: 10px;
-        color: rgba(245, 134, 52, 1);
+        color: #3677A2;
         font-size: 16px;
         border-radius: 5px;
     }
@@ -1166,14 +1166,14 @@ section.ezulix-choose {
         font-weight: 500;
         flex-shrink: 0;
         scroll-snap-align: start;
-        border: solid 1px rgba(245, 134, 52, 1);
+        border: solid 1px #3677A2;
         white-space: nowrap;
     }
 
     /* 🔹 Highlight Active Tab */
 
     .tab.active {
-        background-color: rgba(245, 134, 52, 1);
+        background-color: #3677A2;
         color: white;
     }
 

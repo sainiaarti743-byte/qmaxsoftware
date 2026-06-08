@@ -256,7 +256,7 @@ h1.text_box a {
 
 .company-facts .text-color,
 .text-color {
-    background: linear-gradient(180deg, #f58634 0, #ff720a 100%);
+    background: linear-gradient(180deg, #3677A2 0, #3677A2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -291,7 +291,7 @@ img.shape2 {
     display: inline-block;
     border-radius: 6px;
     padding: 10px 20px;
-    background: #f58634;
+    background: #3677A2;
     gap: 10px;
     transition: none !important;
 }
@@ -329,7 +329,7 @@ img.shape2 {
     line-height: 42px;
     font-weight: 600;
     text-shadow: 0 2px 20.1px 0 rgba(0, 0, 0, 0.2);
-    background: linear-gradient(138.86deg, #1769ff 20.53%, #0049ce 76.69%);
+    background: linear-gradient(138.86deg, #0C823D 20.53%, #18ad56 76.69%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -418,7 +418,7 @@ img.img-2 {
 }
 
 .ai-service-icon {
-    background: linear-gradient(180deg, #f58634 0, #ff720a 100%);
+    background: linear-gradient(180deg, #3677A2 0, #2d75a4 100%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -432,7 +432,7 @@ img.img-2 {
 
 .subheading h2 {
     display: inline-block;
-    color: #1769ff;
+    color: #0C823D;
     background: rgba(23, 105, 255, 0.1);
     padding: 4px 10px;
     border-radius: 10px;
@@ -468,7 +468,7 @@ img.img-2 {
 
 .service-card:hover,
 .service-icon {
-    background: linear-gradient(180deg, #f58634 0, #ff720a 100%);
+    background: linear-gradient(180deg, #3677A2 0, #3677A2 100%);
 }
 
 .service-card:hover {
@@ -520,13 +520,13 @@ p {
 
 .cta-service,
 .project-content.project-bg3 {
-    background: #f58634;
+    background: #3677A2;
 }
 
 .service-footer {
     width: 100px;
     height: 2px;
-    background: linear-gradient(180deg, #f58634 0, #ff720a 100%);
+    background: linear-gradient(180deg, #3677A2 0, #3677A2 100%);
     margin: 10px 0;
     display: inline-block;
     transition: 0.2s;
@@ -545,7 +545,7 @@ p {
     font-size: 18px;
     font-weight: 500;
     line-height: 25px;
-    color: #d7630c;
+    color: #3677A2;
     transition: 0.2s;
 }
 
@@ -580,7 +580,7 @@ p {
     content: "";
     top: 0;
     left: 0;
-    background: linear-gradient(180deg, #f58634 0, #ff720a 100%);
+    background: linear-gradient(180deg, #3677A2 0, #3677A2 100%);
     border-radius: 10px 0 0 10px;
     height: 100%;
     width: 10px;
@@ -681,7 +681,7 @@ span.dot {
 
 .custom-nav span,
 .custom-nav span:hover {
-    background: linear-gradient(180deg, #f58634 0, #ff720a 100%);
+    background: linear-gradient(180deg, #3677A2 0, #3677A2 100%);
 }
 
 .development-source-wrap {
@@ -763,7 +763,7 @@ span.dot {
 .custom-dots .dot {
     width: 20px;
     height: 10px;
-    background: #258cfb;
+    background: #0C823D;
     border-radius: 6px;
     transition: opacity 0.2s, width 0.2s, background 0.2s;
     cursor: pointer;
@@ -774,7 +774,7 @@ span.dot {
     width: 60px;
     height: 10px;
     border-radius: 6px;
-    background: linear-gradient(134.31deg, #1263f7 1.07%, #034fd9 99.34%);
+    background: linear-gradient(134.31deg, #0C823D 1.07%, #0C823D 99.34%);
 }
 
 .testimonials-wrapper {
@@ -849,7 +849,7 @@ section.development-sources.section-padding {
     color: #fff;
     height: 100%;
     padding: 30px 20px;
-    background: linear-gradient(134.31deg, #1263f7 1.07%, #034fd9 99.34%);
+    background: linear-gradient(134.31deg, #0C823D 1.07%, #0C823D 99.34%);
 }
 
 .project-content.project-bg {
@@ -1083,7 +1083,7 @@ section.development-sources.section-padding {
 }
 
 .counter-title {
-    color: #1366fc;
+    color: #0C823D;
 }
 
 .powered-block {
@@ -1279,7 +1279,7 @@ section.development-sources.section-padding {
 }
 
 .serve-info::after {
-    background: linear-gradient(to bottom, transparent 31%, #1466ef 90%);
+    background: linear-gradient(to bottom, transparent 31%, #0C823D 90%);
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -2201,7 +2201,7 @@ section.development-sources.section-padding {
 
 .home-page-wrapper span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     color: #fff;
-    background: #f87e23;
+    background: #3677A2;
 }
 
 .home-page-wrapper span.swiper-pagination-bullet {
@@ -2234,7 +2234,7 @@ section.development-sources.section-padding {
 }
 
 .home-page-wrapper .text-gradient {
-    background: linear-gradient(134.31deg, #1263f7 1.07%, #034fd9 99.34%);
+    background: linear-gradient(134.31deg, #0C823D 1.07%, #17ac55 99.34%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2249,7 +2249,7 @@ section.development-sources.section-padding {
 }
 
 .home-page-wrapper .testimonials-section .sub-title {
-    color: #ff6f04;
+    color: #3677A2;
 }
 
 .home-page-wrapper .bg-gray {
@@ -2273,7 +2273,7 @@ section.development-sources.section-padding {
 
 .aeps-page-wrapper a.our_software i {
     font-size: 40px;
-    color: #fd6b08;
+    color: #3677A2;
 }
 
 .aeps-page-wrapper a.our_software {
@@ -2444,7 +2444,7 @@ section.development-sources.section-padding {
 
 .aeps-page-wrapper section.cta1 {
     padding: 50px 0;
-    background-color: #1369f7;
+    background-color: #0C823D;
     color: #fff;
 }
 
@@ -2523,7 +2523,7 @@ section.development-sources.section-padding {
         display: none;
     }
     .award-box {
-        background: #ff5600;
+        background: #3677A2;
         color: #fff;
         padding: 40px 30px;
         width: 100%;

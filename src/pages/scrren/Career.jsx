@@ -93,22 +93,22 @@ const css = `
     letter-spacing: 1.5px; font-size: 0.88rem;
     transition: background 0.3s, border-color 0.3s;
   }
-  .cr-hero-btn:hover { background: #e85d04; border-color: #e85d04; color: #fff; }
+  .cr-hero-btn:hover { background: #3677A2; border-color: #3677A2; color: #fff; }
 
   /* ── BREADCRUMB ── */
   .cr-breadcrumb {
     padding: 16px 80px; font-size: 0.9rem; color: #888;
-    border-bottom: 1.5px solid #e85d04;
+    border-bottom: 1.5px solid #3677A2;
   }
   .cr-breadcrumb a { color: #555; text-decoration: none; }
-  .cr-breadcrumb a:hover { color: #e85d04; }
-  .cr-breadcrumb .active { color: #e85d04; }
+  .cr-breadcrumb a:hover { color: #3677A2; }
+  .cr-breadcrumb .active { color: #3677A2; }
   .cr-breadcrumb span { margin: 0 8px; color: #bbb; }
 
   /* ── VACANCIES SECTION ── */
   .cr-vacancies { padding: 50px 80px 60px; }
   .cr-vac-title {
-    text-align: center; color: #e85d04; font-weight: 800;
+    text-align: center; color: #3677A2; font-weight: 800;
     font-size: clamp(1.4rem, 3vw, 1.9rem); margin-bottom: 40px; letter-spacing: 1px;
   }
   .cr-vac-layout { display: flex; gap: 40px; align-items: flex-start; }
@@ -117,7 +117,7 @@ const css = `
   .cr-apply-wrap { width: 340px; flex-shrink: 0; }
   .cr-apply-wrap h3 { font-size: 1.3rem; font-weight: 600; color: #1a1a2e; margin-bottom: 16px; }
   .cr-apply-form {
-    border: 1.5px solid #e85d04; border-radius: 12px;
+    border: 1.5px solid #3677A2; border-radius: 12px;
     padding: 24px 20px; display: flex; flex-direction: column; gap: 12px;
   }
   .cr-input {
@@ -126,7 +126,7 @@ const css = `
     font-family: inherit; color: #333; background: #fff;
     transition: border-color 0.2s;
   }
-  .cr-input:focus { border-color: #e85d04; }
+  .cr-input:focus { border-color: #3677A2; }
   .cr-select {
     width: 100%; padding: 12px 14px; border: 1px solid #ddd;
     border-radius: 8px; font-size: 0.92rem; outline: none;
@@ -136,7 +136,7 @@ const css = `
     background-repeat: no-repeat; background-position: right 14px center;
     transition: border-color 0.2s;
   }
-  .cr-select:focus { border-color: #e85d04; }
+  .cr-select:focus { border-color: #3677A2; }
   .cr-exp-row { display: flex; gap: 10px; }
   .cr-exp-row .cr-input { flex: 1; }
   .cr-textarea {
@@ -145,16 +145,16 @@ const css = `
     font-family: inherit; color: #333; resize: vertical; min-height: 100px;
     transition: border-color 0.2s;
   }
-  .cr-textarea:focus { border-color: #e85d04; }
+  .cr-textarea:focus { border-color: #3677A2; }
   .cr-file-label {
     display: flex; align-items: center; gap: 10px;
     border: 1px solid #ddd; border-radius: 8px; padding: 11px 14px;
     cursor: pointer; color: #888; font-size: 0.9rem;
     transition: border-color 0.2s;
   }
-  .cr-file-label:hover { border-color: #e85d04; color: #e85d04; }
+  .cr-file-label:hover { border-color: #3677A2; color: #3677A2; }
   .cr-apply-btn {
-    background: linear-gradient(135deg,#e85d04,#f48c06);
+    background: linear-gradient(135deg,#3677A2,#f48c06);
     color: #fff; border: none; border-radius: 8px;
     padding: 13px; font-weight: 700; font-size: 1rem;
     cursor: pointer; transition: opacity 0.2s; letter-spacing: 0.5px;
@@ -170,14 +170,14 @@ const css = `
     font-size: clamp(1rem, 2vw, 1.15rem); font-weight: 600; color: #1a1a2e;
     user-select: none; transition: color 0.2s;
   }
-  .cr-acc-header:hover { color: #e85d04; }
+  .cr-acc-header:hover { color: #3677A2; }
   .cr-acc-icon {
-    font-size: 1.1rem; color: #e85d04; transition: transform 0.3s;
+    font-size: 1.1rem; color: #3677A2; transition: transform 0.3s;
     flex-shrink: 0; margin-left: 12px;
   }
   .cr-acc-icon.open { transform: rotate(180deg); }
   .cr-acc-body {
-    background: linear-gradient(135deg,#e85d04,#f48c06);
+    background: linear-gradient(135deg,#3677A2,#f48c06);
     border-radius: 12px; padding: 24px 28px;
     margin-bottom: 16px; color: #fff;
     animation: slideDown 0.25s ease;
@@ -193,7 +193,7 @@ const css = `
   .cr-benefits { padding: 60px 80px 70px; background: #fff; }
   .cr-benefits-title {
     text-align: center; font-size: clamp(1.3rem,3vw,1.8rem);
-    font-weight: 800; color: #e85d04; margin-bottom: 40px;
+    font-weight: 800; color: #3677A2; margin-bottom: 40px;
   }
   .cr-benefits-grid {
     display: grid; grid-template-columns: repeat(3,1fr); gap: 18px;
@@ -206,12 +206,12 @@ const css = `
     cursor: default;
   }
   .cr-benefit-card:hover {
-    border-color: #e85d04; transform: translateY(-4px);
+    border-color: #3677A2; transform: translateY(-4px);
     box-shadow: 0 8px 24px rgba(232,93,4,0.12);
   }
   .cr-benefit-icon {
     width: 52px; height: 52px; border-radius: 12px;
-    border: 1.5px solid #e85d04; display: flex; align-items: center;
+    border: 1.5px solid #3677A2; display: flex; align-items: center;
     justify-content: center; font-size: 1.5rem; flex-shrink: 0;
     background: #fff8f4;
   }

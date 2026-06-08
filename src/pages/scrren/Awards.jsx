@@ -98,11 +98,11 @@ const css = `
     text-decoration: none; letter-spacing: 1.5px; font-size: 0.9rem;
     transition: background 0.3s, color 0.3s;
   }
-  .aw-hero-btn:hover { background: #e85d04; border-color: #e85d04; color: #fff; }
+  .aw-hero-btn:hover { background: #3677A2; border-color: #3677A2; color: #fff; }
 
   /* ── BREADCRUMB ── */
   .aw-breadcrumb { padding: 18px 80px; font-size: 0.9rem; color: #888; }
-  .aw-breadcrumb a { color: #e85d04; text-decoration: none; }
+  .aw-breadcrumb a { color: #3677A2; text-decoration: none; }
   .aw-breadcrumb span { margin: 0 8px; }
 
   /* ── PORTFOLIO HEADER ── */
@@ -111,7 +111,7 @@ const css = `
     font-size: clamp(1.2rem, 3vw, 1.7rem); font-weight: 700;
     color: #1a1a2e; line-height: 1.45; max-width: 820px; margin: 0 auto 18px;
   }
-  .aw-portfolio-head h2 span { color: #e85d04; }
+  .aw-portfolio-head h2 span { color: #3677A2; }
   .aw-portfolio-head hr { border: none; border-top: 1.5px solid #e0e0e0; max-width: 900px; margin: 0 auto; }
 
   /* ── AWARDS GRID ── */
@@ -133,7 +133,7 @@ const css = `
   .aw-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 12px 36px rgba(0,0,0,0.10);
-    border-color: #e85d04;
+    border-color: #3677A2;
   }
   .aw-badge {
     width: 140px; height: 140px; border-radius: 50%;

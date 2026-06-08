@@ -38,11 +38,11 @@ button {
 }
 
 :root {
-    --bs-orange: #f58634;
-    --bs-light-orange: #ff6f04;
+    --bs-orange: #3677A2;
+    --bs-light-orange: #5d9dc8;
     --bs-dark-orange: #ae500a;
-    --bs-rgb-orange: rgba(255, 111, 4, 0.9);
-    --bs-orange-primary: #ff791b;
+    --bs-rgb-orange: #3677A2;
+    --bs-orange-primary: #5f88a3;
     --bs-orange-secondary: #fae3d2;
     --bs-black: #000;
     --bs-red: #fe0303;
@@ -1246,7 +1246,7 @@ textarea {
 .bottmlnk-list::after,
 .copyright::before,
 .footer-widget-title h5::before {
-    background: linear-gradient(to right, var(--bs-orange), #f58634);
+    background: linear-gradient(to right, var(--bs-orange), #3677A2);
     height: 1px;
     content: "";
     position: absolute;

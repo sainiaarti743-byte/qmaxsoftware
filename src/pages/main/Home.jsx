@@ -34,7 +34,7 @@ const Home = () => {
                     <video
                         ref={videoRef}
                         className="banner-video"
-                        poster="https://ezulix.com/assets/image/video/poster.webp"
+                        poster="/assets/image/video/poster.webp"
                         autoPlay
                         loop
                         muted
@@ -52,7 +52,8 @@ const Home = () => {
                                 <div className="col-lg-11 mx-auto text-center ">
                                     <h2 className="py-4"></h2>
                                     <h1 className="text_box ">
-                                        <span className="text-color">Simplifying </span> <a href="https://ezulix.com/ai-development-company" role="button">AI for Every Business.</a> <br /> <a href="https://ezulix.com/software-development-services" role="button">Software</a>                                & <a href="https://ezulix.com/mobile-app-development-company" role="button">App</a> Developers Transforming Lives <span className="text-color">Worldwide.</span>
+                                        <span className="text-color">Simplifying </span> <a href="/ai-development-company" role="button">AI for Every Business.</a> <br />
+                                         <a href="/software-development-services" role="button">Software</a>                                & <a href="/mobile-app-development-company" role="button">App</a> Developers Transforming Lives <span className="text-color">Worldwide.</span>
                                     </h1>
                                     <p className="fs-22 fw-regular text-white my-4 ">Growing With</p>
                                     <div className="banner-tech">
@@ -352,7 +353,7 @@ const Home = () => {
                                         <p className="fs-18 fw-regular text-black mt-2">
                                             We leverage Machine Learning (ML) and Artificial Intelligence (AI) to make a software application smarter. With AI & ML, our solutions understand the users and keep them engaged by offering a personalised user experience.
                                         </p>
-                                        <a role="button" className="text-color mt-1" href="https://ezulix.com/next-gen-technology-development#ai-development" aria-label="Read more about Next-Gen Technology Development">Explore Next-Gen Technology <i className="fa-solid fa-arrow-right"></i></a>
+                                        <a role="button" className="text-color mt-1" href="/next-gen-technology-development#ai-development" aria-label="Read more about Next-Gen Technology Development">Explore Next-Gen Technology <i className="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -373,7 +374,7 @@ const Home = () => {
                                             the next level.
 
                                         </p>
-                                        <a role="button" className="text-color mt-1" href="https://ezulix.com/next-gen-technology-development#ar-development" aria-label="Read more about Next-Gen Technology Development">Explore Next-Gen Technology <i className="fa-solid fa-arrow-right"></i></a>
+                                        <a role="button" className="text-color mt-1" href="/next-gen-technology-development#ar-development" aria-label="Read more about Next-Gen Technology Development">Explore Next-Gen Technology <i className="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -393,7 +394,7 @@ const Home = () => {
                                         <p className="fs-18 fw-regular text-black mt-2">
                                             We create fully immersive digital experiences with advanced 3D VR development and integration. From immersive training modules to high-level architectural visualizations, virtual classNamerooms, product demonstrations, and much more, we can craft everything.
                                         </p>
-                                        <a role="button" className="text-color mt-1" href="https://ezulix.com/next-gen-technology-development#vr-development" aria-label="Read more about Next-Gen Technology Development">Explore Next-Gen Technology <i className="fa-solid fa-arrow-right"></i></a>
+                                        <a role="button" className="text-color mt-1" href="/next-gen-technology-development#vr-development" aria-label="Read more about Next-Gen Technology Development">Explore Next-Gen Technology <i className="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -413,7 +414,7 @@ const Home = () => {
                                             For a smarter, safer, and higher-quality life, our IoT development services aim to create a real-time ecosystem that seamlessly connects devices, sensors, and software applic ations to elevate living. From smart homes to smart workplaces, we make our
                                             surroundings smarter.
                                         </p>
-                                        <a role="button" className="text-color mt-1" href="https://ezulix.com/next-gen-technology-development#iot-development" aria-label="Read more about Next-Gen Technology Development">Explore Next-Gen Technology <i className="fa-solid fa-arrow-right"></i></a>
+                                        <a role="button" className="text-color mt-1" href="/next-gen-technology-development#iot-development" aria-label="Read more about Next-Gen Technology Development">Explore Next-Gen Technology <i className="fa-solid fa-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -445,7 +446,7 @@ const Home = () => {
                                         <h3 className="fs-22 fw-semibold my-3">Website Design & Development</h3>
                                         <p className="fs-18 fw-regular ">Leave an everlasting impression with unique, creative, and out-of-the-box website designs. Get websites and web apps with fully customized functionalities.</p>
                                     </div>
-                                    <div className="service-footer position-relative"><a href="https://ezulix.com/web-design-company" role="button"><span>Explore More</span></a></div>
+                                    <div className="service-footer position-relative"><a href="/web-design-company" role="button"><span>Explore More</span></a></div>
                                 </div>
                             </div>
                             <div className="col-lg-4  col-md-6  service-wrapper">
@@ -457,7 +458,7 @@ const Home = () => {
                                         <h3 className="fs-22 fw-semibold my-3">Custom Software Development</h3>
                                         <p className="fs-18 fw-regular ">Automate almost anything in your organization with custom software development technology. Enhance your productivity with smart AI-driven automation solutions.</p>
                                     </div>
-                                    <div className="service-footer position-relative"><a href="https://ezulix.com/software-development-services" role="button"><span>Explore More</span></a></div>
+                                    <div className="service-footer position-relative"><a href="/software-development-services" role="button"><span>Explore More</span></a></div>
                                 </div>
                             </div>
                             <div className="col-lg-4  col-md-6  service-wrapper">
@@ -469,7 +470,7 @@ const Home = () => {
                                         <h3 className="fs-22 fw-semibold my-3">Enterprise Software Development</h3>
                                         <p className="fs-18 fw-regular ">No more messy spreadsheets or hefty subscriptions! Get your own exclusive ERP software solutions with 100% ownership and tight data security. </p>
                                     </div>
-                                    <div className="service-footer position-relative"><a href="https://ezulix.com/on-demand-app-development" role="button"><span>Explore More</span></a></div>
+                                    <div className="service-footer position-relative"><a href="/on-demand-app-development" role="button"><span>Explore More</span></a></div>
                                 </div>
                             </div>
                             <div className="col-lg-4  col-md-6  service-wrapper">
@@ -481,7 +482,7 @@ const Home = () => {
                                         <h3 className="fs-22 fw-semibold my-3">Bespoke Mobile App Development</h3>
                                         <p className="fs-18 fw-regular ">Discuss your first-of-its-kind mobile app development idea with the top app developers in India and see it come to life with the perfection it deserves. </p>
                                     </div>
-                                    <div className="service-footer position-relative"><a href="https://ezulix.com/mobile-app-development-company" role="button"><span>Explore More</span></a></div>
+                                    <div className="service-footer position-relative"><a href="/mobile-app-development-company" role="button"><span>Explore More</span></a></div>
                                 </div>
                             </div>
                             <div className="col-lg-4  col-md-6  service-wrapper">
@@ -493,7 +494,7 @@ const Home = () => {
                                         <h3 className="fs-22 fw-semibold my-3">AI Product Development</h3>
                                         <p className="fs-18 fw-regular ">From advanced generative AI to intelligent chatbots and smart Business Intelligence solutions, choose the trusted software development company in India for your AI needs.</p>
                                     </div>
-                                    <div className="service-footer position-relative"><a href="https://ezulix.com/next-gen-technology-development" role="button"><span>Explore More</span></a></div>
+                                    <div className="service-footer position-relative"><a href="/next-gen-technology-development" role="button"><span>Explore More</span></a></div>
                                 </div>
                             </div>
                             <div className="col-lg-4  col-md-6  service-wrapper">
@@ -506,7 +507,7 @@ const Home = () => {
                                         </h3>
                                         <p className="fs-18 fw-regular ">For high-performing secure software solutions, choose our cloud development services. AWS, Azure, GCP, or a private cloud, you find everything here.</p>
                                     </div>
-                                    <div className="service-footer position-relative"><a href="https://ezulix.com/" role="button"><span>Explore More</span></a></div>
+                                    <div className="service-footer position-relative"><a href="/" role="button"><span>Explore More</span></a></div>
                                 </div>
                             </div>
                             <div className="col-lg-4  col-md-6  service-wrapper">
@@ -518,7 +519,7 @@ const Home = () => {
                                         <h3 className="fs-22 fw-semibold my-3">SaaS Development</h3>
                                         <p className="fs-18 fw-regular ">Boost your efficiency with a scalable and affordable Software as a Service solution (SaaS). Run and control your entire business over any browser.</p>
                                     </div>
-                                    <div className="service-footer position-relative"><a href="https://ezulix.com/saas-development-company" role="button"><span>Explore More</span></a></div>
+                                    <div className="service-footer position-relative"><a href="/saas-development-company" role="button"><span>Explore More</span></a></div>
                                 </div>
                             </div>
                             <div className="col-lg-4  col-md-6  service-wrapper">
@@ -530,7 +531,7 @@ const Home = () => {
                                         <h3 className="fs-22 fw-semibold my-3">Digital Marketing</h3>
                                         <p className="fs-18 fw-regular ">Unlock a worldwide reach for your business with dedicated Search Engine Optimization (SEO), Social Media Marketing, and tailored content writing.</p>
                                     </div>
-                                    <div className="service-footer position-relative"><a href="https://ezulix.com/digital-marketing-company" role="button"><span>Explore More</span></a></div>
+                                    <div className="service-footer position-relative"><a href="/digital-marketing-company" role="button"><span>Explore More</span></a></div>
                                 </div>
                             </div>
                             <div className="col-lg-4  col-md-6  service-wrapper ">
@@ -602,7 +603,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="col-lg-3 text-end mt-5">
-                                <a href="https://ezulix.com/portfolio" className="custom-cta-btn mt-3" role="button"><span>Discover Full Portfolio <i className="fa-solid fa-arrow-up"></i></span></a>
+                                <a href="/portfolio" className="custom-cta-btn mt-3" role="button"><span>Discover Full Portfolio <i className="fa-solid fa-arrow-up"></i></span></a>
                             </div>
                         </div>
                         <div className="row mt-5 ">
@@ -692,7 +693,7 @@ const Home = () => {
 
                             {/* <!-- <div className="col-lg-3 p-0">
                     <div className="project-img-box">
-                        <img src="https://ezulix.com/assets/image/home/case-study/case-study4.png" alt="">
+                        <img src="/assets/image/home/case-study/case-study4.png" alt="">
                     </div>
                 </div> --> */}
                         </div>
@@ -1077,7 +1078,7 @@ const Home = () => {
                                                     <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="Check Icon" /> United Arab Emirates</li>
                                                     <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="Check Icon" /> United Kingdom</li>
                                                 </ul>
-                                                <a href="https://ezulix.com/contactus" className="custom-cta-btn mt-4" role="button"><span>Connect <i className="fa-solid fa-arrow-up"></i></span></a>
+                                                <a href="/contactus" className="custom-cta-btn mt-4" role="button"><span>Connect <i className="fa-solid fa-arrow-up"></i></span></a>
                                             </div>
                                             <div id="development-tab-content-1" className="development-tab-content" style={{ display: 'none' }} role="tabpanel" aria-labelledby="tab-btn2">
                                                 Hire highly skilled developers off-shore in–
@@ -1087,7 +1088,7 @@ const Home = () => {
                                                     <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="Check Icon" /> English-Efficient Team</li>
                                                     <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="Check Icon" /> Cost Savings & Valid Pricing</li>
                                                 </ul>
-                                                <a href="https://ezulix.com/contactus" role="button" className="custom-cta-btn mt-4"><span>Connect <i className="fa-solid fa-arrow-up"></i></span></a>
+                                                <a href="/contactus" role="button" className="custom-cta-btn mt-4"><span>Connect <i className="fa-solid fa-arrow-up"></i></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1146,7 +1147,7 @@ const Home = () => {
                                         Let’s Develop Something <br /> Great Together
                                     </h2>
                                     <p className="fs-18 text-white fw-regular my-3">Build an unbeatable brand image and get ready for a seamless digital transformation in business. Connect with our team to get premium-grade software and app solutions. </p>
-                                    <a href="https://ezulix.com/contactus" role="button" className="custom-cta-btn mt-3"><span>Discuss Your Project <i className="fa-solid fa-arrow-up"></i></span></a>
+                                    <a href="/contactus" role="button" className="custom-cta-btn mt-3"><span>Discuss Your Project <i className="fa-solid fa-arrow-up"></i></span></a>
                                 </div>
                             </div>
                         </div>
