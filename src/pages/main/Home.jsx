@@ -428,10 +428,10 @@ const Home = () => {
                         <div className="row">
                             <div className="col-lg-10 col-md-12 col-sm-12 mx-auto solution-heading-block text-center">
                                 <div className="subheading">
-                                    <h2 className="fs-18 fw-medium mb-2">SERVICES</h2>
+                                    <h2 className="fs-18 fw-medium mb-2">Our Services</h2>
                                 </div>
                                 <div className="section-title">
-                                    <h2 className="text-black fs-38 fw-semibold">From <span className="text-color"> Idea to Market, </span><br /> Our Services & Support Continues Throughout </h2>
+                                    <h2 className="text-black fs-38 fw-semibold">Custom  <span className="text-color"> IT Solutions, </span><br /> for Business Growth and Digital Success </h2>
                                 </div>
                             </div>
 
@@ -444,7 +444,7 @@ const Home = () => {
                                     </div>
                                     <div className="service-content">
                                         <h3 className="fs-22 fw-semibold my-3">Website Design & Development</h3>
-                                        <p className="fs-18 fw-regular ">Leave an everlasting impression with unique, creative, and out-of-the-box website designs. Get websites and web apps with fully customized functionalities.</p>
+                                        <p className="fs-18 fw-regular ">We create responsive, user-friendly, and SEO-friendly websites that help businesses establish a strong online presence and deliver an exceptional user experience.</p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/web-design-company" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -456,7 +456,7 @@ const Home = () => {
                                     </div>
                                     <div className="service-content">
                                         <h3 className="fs-22 fw-semibold my-3">Custom Software Development</h3>
-                                        <p className="fs-18 fw-regular ">Automate almost anything in your organization with custom software development technology. Enhance your productivity with smart AI-driven automation solutions.</p>
+                                        <p className="fs-18 fw-regular ">Our custom software solutions are designed to automate business processes, improve efficiency, and support long-term business growth with scalable technology.</p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/software-development-services" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -467,8 +467,8 @@ const Home = () => {
                                         <img src="/assets/image/home/service-icon/enterprise-software.png" height="40px" width="40px" alt="Enterprise Software Development Icon" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="fs-22 fw-semibold my-3">Enterprise Software Development</h3>
-                                        <p className="fs-18 fw-regular ">No more messy spreadsheets or hefty subscriptions! Get your own exclusive ERP software solutions with 100% ownership and tight data security. </p>
+                                        <h3 className="fs-22 fw-semibold my-3">ERP & CRM Solutions</h3>
+                                        <p className="fs-18 fw-regular ">Streamline operations and manage customer relationships effectively with our customized ERP and CRM software solutions tailored to your business needs. </p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/on-demand-app-development" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -479,8 +479,8 @@ const Home = () => {
                                         <img src="/assets/image/home/service-icon/bespoke-mobile.png" height="40px" width="40px" alt="Bespoke Mobile App Development Icon" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="fs-22 fw-semibold my-3">Bespoke Mobile App Development</h3>
-                                        <p className="fs-18 fw-regular ">Discuss your first-of-its-kind mobile app development idea with the top app developers in India and see it come to life with the perfection it deserves. </p>
+                                        <h3 className="fs-22 fw-semibold my-3">Mobile App Developmentt</h3>
+                                        <p className="fs-18 fw-regular ">We develop high-performance Android and iOS mobile applications that enhance customer engagement, improve accessibility, and support business growth. </p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/mobile-app-development-company" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -491,8 +491,8 @@ const Home = () => {
                                         <img src="/assets/image/home/service-icon/ai-product.png" height="40px" width="40px" alt="AI Product Development Icon" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="fs-22 fw-semibold my-3">AI Product Development</h3>
-                                        <p className="fs-18 fw-regular ">From advanced generative AI to intelligent chatbots and smart Business Intelligence solutions, choose the trusted software development company in India for your AI needs.</p>
+                                        <h3 className="fs-22 fw-semibold my-3">Digital Marketing Services</h3>
+                                        <p className="fs-18 fw-regular ">Our digital marketing solutions include SEO, social media marketing, Google Ads, PPC advertising, and content marketing to increase visibility and generate quality leads.</p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/next-gen-technology-development" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -503,9 +503,9 @@ const Home = () => {
                                         <img src="/assets/image/home/service-icon/cloud-development.png" height="40px" width="40px" alt="Cloud Development Icon" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="fs-22 fw-semibold my-3">Cloud Development
+                                        <h3 className="fs-22 fw-semibold my-3">E-commerce Development
                                         </h3>
-                                        <p className="fs-18 fw-regular ">For high-performing secure software solutions, choose our cloud development services. AWS, Azure, GCP, or a private cloud, you find everything here.</p>
+                                        <p className="fs-18 fw-regular ">Build and grow your online business with secure, scalable, and feature-rich e-commerce websites designed to maximize sales and customer experience.</p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -516,8 +516,8 @@ const Home = () => {
                                         <img src="/assets/image/home/service-icon/saas-development.png" height="40px" width="40px" alt="SaaS Development Icon" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="fs-22 fw-semibold my-3">SaaS Development</h3>
-                                        <p className="fs-18 fw-regular ">Boost your efficiency with a scalable and affordable Software as a Service solution (SaaS). Run and control your entire business over any browser.</p>
+                                        <h3 className="fs-22 fw-semibold my-3">API Integration Services</h3>
+                                        <p className="fs-18 fw-regular ">Connect your business applications seamlessly with secure API integration services that improve workflow efficiency and data management.</p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/saas-development-company" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -528,8 +528,8 @@ const Home = () => {
                                         <img src="/assets/image/home/service-icon/digital-marketing.png" height="40px" width="40px" alt="Digital Marketing Icon" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="fs-22 fw-semibold my-3">Digital Marketing</h3>
-                                        <p className="fs-18 fw-regular ">Unlock a worldwide reach for your business with dedicated Search Engine Optimization (SEO), Social Media Marketing, and tailored content writing.</p>
+                                        <h3 className="fs-22 fw-semibold my-3">WordPress Development</h3>
+                                        <p className="fs-18 fw-regular ">We create customized WordPress websites that are fast, secure, easy to manage, and optimized for search engines and user experience.</p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/digital-marketing-company" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -540,10 +540,10 @@ const Home = () => {
                                         <img src="/assets/image/home/service-icon/call.png" style={{ filter: 'brightness(1)' }} height="40px" width="40px" alt="Get Free Consulting Icon" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="fs-22 fw-semibold my-3 text-white">Get Free Consulting</h3>
-                                        <p className="fs-18 fw-regular text-white" style={{ color: 'white' }}>Take right decision from the day 1 with expert advice. Contact our professionals and get free consultation before making a move. </p>
+                                        <h3 className="fs-22 fw-semibold my-3 text-white">Call Us For Quote</h3>
+                                        <p className="fs-18 fw-regular text-white" style={{ color: 'white' }}>Get a free consultation and discuss your project requirements with our experts. </p>
                                     </div>
-                                    <div className="service-footer position-relative"><a href="tel:7230001612"><span style={{ color: 'white' }} role="button"><i className="fa-solid fa-phone"></i> Call Now</span></a></div>
+                                    <div className="service-footer position-relative"><a href="tel:8890732899"><span style={{ color: 'white' }} role="button"><i className="fa-solid fa-phone"></i> Call Now</span></a></div>
                                 </div>
                             </div>
                         </div>
