@@ -50,9 +50,9 @@ const Home = () => {
                         <div className="row">
                             <div className="container">
                                 <div className="col-lg-11 mx-auto text-center ">
-                                    <h2 className="py-4"></h2>
+                                    <h2 className="py-5"></h2>
                                     <h1 className="text_box ">
-                                        <span className="text-color">Simplifying </span> <a href="/ai-development-company" role="button">AI for Every Business.</a> <br />
+                                        <span className="text-color text-white">Simplifying </span> <a href="/ai-development-company" role="button">AI for Every Business.</a> <br />
                                          <a href="/software-development-services" role="button">Software</a>                                & <a href="/mobile-app-development-company" role="button">App</a> Developers Transforming Lives <span className="text-color">Worldwide.</span>
                                     </h1>
                                     <p className="fs-22 fw-regular text-white my-4 ">Growing With</p>
