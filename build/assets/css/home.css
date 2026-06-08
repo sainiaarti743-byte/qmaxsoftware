@@ -256,7 +256,7 @@ h1.text_box a {
 
 .company-facts .text-color,
 .text-color {
-    background: linear-gradient(180deg, #3677A2 0, #3677A2 100%);
+    background: linear-gradient(180deg, #3677A2 0, #9ccded 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -468,7 +468,7 @@ img.img-2 {
 
 .service-card:hover,
 .service-icon {
-    background: linear-gradient(180deg, #3677A2 0, #3677A2 100%);
+    background: linear-gradient(180deg, #3677A2 0, #66acdc 100%);
 }
 
 .service-card:hover {
