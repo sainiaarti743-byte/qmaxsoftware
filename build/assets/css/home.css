@@ -89,7 +89,7 @@ h1.text_box a {
 }
 
 .btn-animated-cta {
-    background: #ff5600;
+    background: #3677A2;
     color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     padding: 0.08em 3.3em 0.08em 1.2em;
@@ -100,7 +100,7 @@ h1.text_box a {
     letter-spacing: 0.05em;
     display: flex;
     align-items: center;
-    box-shadow: inset 0 0 1.6em -0.6em #ff5600;
+    box-shadow: inset 0 0 1.6em -0.6em #3677A2;
     overflow: hidden;
     position: relative;
     height: 2.8em;
@@ -554,7 +554,7 @@ p {
 }
 
 .service-card .arrow-btn {
-    background: #ff5600;
+    background: #3677A2;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -566,7 +566,7 @@ p {
 }
 
 .service-card .arrow-btn:hover {
-    background: #da4900;
+    background: #3677A2;
 }
 
 .guidance-wrap {
@@ -625,7 +625,7 @@ section.technology-section {
 }
 
 .skill-wrap:hover {
-    border: 2px solid #f44336;
+    border: 2px solid #3677A2;
 }
 
 .skill-wrap:hover img {
@@ -672,7 +672,7 @@ section.technology-section {
 span.dot {
     height: 5px;
     width: 5px;
-    background: #ff5600;
+    background: #3677A2;
     display: inline-block;
     position: relative;
     top: -4px;
@@ -698,7 +698,7 @@ span.dot {
 
 .home-subheading {
     font-size: 14px;
-    color: #ff5600;
+    color: #3677A2
 }
 
 .slide-icon {

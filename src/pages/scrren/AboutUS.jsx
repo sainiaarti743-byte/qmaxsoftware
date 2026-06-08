@@ -16,12 +16,12 @@ const team = [
 ];
 
 const whyUs = [
-  "Prioritizing the needs of Clients",
-  "Effective Synergy",
-  "Timely Delivery",
-  "Robust Skill Set",
-  "Distinctive Ideation",
-  "Results-Oriented Work",
+  "Customised solutions designed around your business needs",
+  "Expertise in software development, web development, and digital marketing",
+  "Customer-focused approach with transparent communication",
+  "Reliable support and long-term partnership commitment",
+  "Quality-driven processes and modern technologies",
+  "Affordable, scalable, and growth-oriented solutions",
   "24*7 Live Support",
 ];
 
@@ -269,14 +269,10 @@ export default function AboutUs() {
                 </h2>
 
                 <p style={{ lineHeight: 1.8, color: "#444" }}>
-                  In 2015, Qmax Software Pvt. Ltd. was established as a web development company in Jaipur, Rajasthan.
-                  With the goal of assisting clients in expanding their enterprises, we began integrating cutting-edge
-                  technology solutions. The year 2018 saw the company's official, fully authenticated, and authorized launch.
+                 Qmax Software Solutions is an IT company in Jaipur dedicated to helping businesses grow through innovative technology and digital solutions. Established in 2025, we were founded with the goal of making technology more accessible, practical, and growth-oriented for businesses of all sizes. As a subsidiary of Palsana Infosystems Pvt. Ltd., backed by industry experience since 2011, we bring together technical expertise, industry knowledge, and a customer-focused approach to deliver solutions that create real business value.
                 </p>
                 <p style={{ lineHeight: 1.8, color: "#444", marginTop: 14 }}>
-                  We deliver services for solutions that are significantly broadened to meet all-time business and technology
-                  needs of today's global environment. Qmax has planted the quality seeds of an organization that offered
-                  fruitful web, mobile, and software development services.
+                 We specialise in custom software development, ERP and CRM solutions, website design and development, e-commerce websites, WordPress development, mobile application development, and API integration services. Alongside our development expertise, we offer digital marketing services in Jaiupr including SEO, social media marketing, Google Ads management, PPC advertising, and content marketing to help businesses strengthen their online presence and reach the right audience.
                 </p>
               </div>
               <div className="col-12 col-lg-6">
@@ -339,11 +335,11 @@ export default function AboutUs() {
               {[
                 {
                   cls: "mission", title: "MISSION",
-                  text: "Our mission is to use innovative concepts and development to help our client's businesses flourish. We comprehend our client's needs, examine them, and offer the ideal solutions. We are committed to offering clients cutting-edge, trustworthy solutions of the highest caliber. Qmax is committed to looking into new possibilities that would enhance company value, steady growth, and sustainability.",
+                  text: "Our mission is to empower businesses with reliable, innovative, and affordable technology solutions that simplify operations, improve efficiency, and support sustainable growth. We strive to deliver high-quality software development and digital marketing services while building long-term relationships based on trust, transparency, and measurable results.",
                 },
                 {
                   cls: "vision", title: "VISION",
-                  text: "Our actual vision is to improve upon where we are now in the market and become India's top software firm. We support our customers in attaining their business objectives because we think that their success is also our success. We assist organizations in their transition to becoming digital businesses and set them apart from market rivals.",
+                  text: "Our vision is to become a trusted technology partner for businesses by delivering future-ready digital solutions that drive innovation, productivity, and growth. We aim to help organisations embrace digital transformation with confidence and achieve lasting success in an increasingly connected world.",
                 },
               ].map((item) => (
                 <div className="col-12 col-md-6" key={item.cls}>
