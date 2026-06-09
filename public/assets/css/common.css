@@ -200,7 +200,7 @@ ul li {
 #header:hover,
 .shape-black,
 .sticky-header {
-    background: var(--bs-black);
+    background:#fff;
 }
 
 .shape-white {

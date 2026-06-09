@@ -594,7 +594,7 @@ a:hover {
 }
 
 .location-details a {
-    color: #fff;
+    color: #161616;
     font-weight: 500
 }
 
@@ -984,7 +984,7 @@ span.sBtn-text {
     display: flex;
     align-items: center;
     font-size: 18px;
-    color: #fff;
+    color: #131313;
     text-decoration: none;
     background: 0 0;
     border: none;

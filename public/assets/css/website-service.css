@@ -83,7 +83,7 @@
 .service-info-section,
 .single-facets:hover .facet-content,
 .worries-single-blog:hover .worries-top-icons {
-    background: var(--bs-black)
+    background:#fff;
 }
 
 .service-info-content p,
