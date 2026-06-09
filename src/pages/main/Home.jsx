@@ -124,12 +124,11 @@ const Home = () => {
                         <div className="row align-items-center">
                             <div className="col-xxl-5 col-xl-4 col-lg-4">
                                 <div className="section-title choose-ez-title">
-                                    <h2 className="text-black fs-38 fw-semibold"> <span className="text-color"> Qmax - </span> Software Development Company in Gurgaon
+                                    <h2 className="text-black fs-38 fw-semibold"> <span className="text-color"> Qmax - </span> Your Trusted Technology Partner for Business Growth
 
 
                                     </h2>
-                                    <p className="text-black fs-18 fw-regular mt-3">Among various software development companies in India, Qmax is trusted worldwide for its dedicated, reliable, and top-notch IT services and solutions. With over a decade of experience, Qmax is renowned for its fully client-centric
-                                        services. Currently, established as a leading software development company in Gurgaon (now Gurugram), Qmax provides managed IT services worldwide.
+                                    <p className="text-black fs-18 fw-regular mt-3">Qmax Software Solutions is a Jaipur-based software development and digital marketing company committed to helping businesses grow through innovative technology solutions. As a subsidiary of Palsana Infosystems Pvt. Ltd., backed by industry experience since 2011, we provide custom software development, website development, Laravel development, React JS development, Android & iOS mobile app development, ERP & CRM solutions, and result-driven digital marketing services. Our goal is to help businesses improve efficiency, strengthen their online presence, and achieve sustainable growth through reliable and scalable digital solutions.
 
                                     </p>
                                 </div>
@@ -143,10 +142,10 @@ const Home = () => {
                                         Software Icon"/>
                                             </div>
                                             <div className="choose-content">
-                                                <h3 className="fs-22 fw-semibold mt-3">100% Custom-Built Software
+                                                <h3 className="fs-22 fw-semibold mt-3">Custom Software Development
                                                 </h3>
-                                                <p className="fw-semibold text-white mt-2" style={{ fontSize: '14px' }}>Zero Templates, Zero Copy-Paste</p>
-                                                <p className="fs-16 fw-regular text-white">Leave an everlasting impression with unique, creative, and out-of-the-box website designs. Get websites and web apps with fully customized functionalities.</p>
+                                                <p className="fw-semibold text-white mt-2" style={{ fontSize: '14px' }}>Tailored Solutions for Unique Business Needs</p>
+                                                <p className="fs-16 fw-regular text-white">We develop custom software solutions designed around your business processes and goals. From business management systems to enterprise applications, our software is scalable, secure, and built to support long-term growth.</p>
                                             </div>
 
                                         </div>
@@ -157,9 +156,9 @@ const Home = () => {
                                                 <img src="/assets/image/home/why-choose/bussiness-fist.png" height="40px" width="40px" alt="Business-First Technology Icon" />
                                             </div>
                                             <div className="choose-content">
-                                                <h3 className="fs-22 fw-semibold mt-3">Business-First Technology</h3>
-                                                <p className="fw-semibold text-white mt-2" style={{ fontSize: '14px' }}>We Understand Business Before Writing Code</p>
-                                                <p className="fs-16 fw-regular text-white">Hiring us is not just about getting the code done! We first listen to your business objectives and brand story to deliver a tailored solution. </p>
+                                                <h3 className="fs-22 fw-semibold mt-3">Business-Focused Approach</h3>
+                                                <p className="fw-semibold text-white mt-2" style={{ fontSize: '14px' }}>Understanding Your Business Before Development</p>
+                                                <p className="fs-16 fw-regular text-white">We believe successful software starts with understanding your business. Our team works closely with you to identify challenges, objectives, and opportunities before developing the right technology solution. </p>
                                             </div>
 
                                         </div>
@@ -173,9 +172,9 @@ const Home = () => {
                                             </div>
                                             <div className="choose-content">
                                                 <div className="choose-content">
-                                                    <h3 className="fs-22 fw-semibold mt-3">Full Product Lifecycle  </h3>
-                                                    <p className="fw-semibold text-white mt-2" style={{ fontSize: '14px' }}>From Idea to Launch to Maintenance</p>
-                                                    <p className="fs-16 fw-regular text-white">At Qmax, we take care of your full Software Development Lifecycle. From idea enhancement to development and post-development maintenance.</p>
+                                                    <h3 className="fs-22 fw-semibold mt-3">Complete Digital Solutions </h3>
+                                                    <p className="fw-semibold text-white mt-2" style={{ fontSize: '14px' }}>From Development to Digital Growth</p>
+                                                    <p className="fs-16 fw-regular text-white">Our expertise includes website development, Laravel development, React JS development, ERP & CRM solutions, Android & iOS mobile app development, and digital marketing services, providing businesses with complete digital solutions under one roof.</p>
                                                 </div>
                                             </div>
 
@@ -188,10 +187,10 @@ const Home = () => {
                                             </div>
                                             <div className="choose-content">
                                                 <div className="choose-content">
-                                                    <h3 className="fs-22 fw-semibold mt-3">Fast Delivery with Agile Execution
+                                                    <h3 className="fs-22 fw-semibold mt-3">Experienced Team & On-Time Delivery
                                                     </h3>
-                                                    <p className="fw-semibold text-white mt-2" style={{ fontSize: '14px' }}>Rapid Development Without Bugs & Glitches</p>
-                                                    <p className="fs-16 fw-regular text-white">Our team ensures rapid project development without performance glitches through modern agile software development methodologies.</p>
+                                                    <p className="fw-semibold text-white mt-2" style={{ fontSize: '14px' }}>Committed to Quality and Reliability</p>
+                                                    <p className="fs-16 fw-regular text-white">Our dedicated professionals focus on delivering high-quality solutions, transparent communication, reliable support, and timely project execution.</p>
                                                 </div>
                                             </div>
 
@@ -332,8 +331,7 @@ const Home = () => {
                         <div className="row">
                             <div className="section-title">
                                 <h2 className="text-black fs-38 fw-semibold">Not Just Intelligent But <span className="text-gradient"> ‘Intellectual’ Solutions </span> </h2>
-                                <p className="text-black fs-22 fw-regular mt-3">Standard technologies make a software solution intelligent, but the Next-Gen technologies make a software solution intellectual. We are the leading custom software development company, and our solutions do not just automate. Rather,
-                                    they also ‘assist’, ‘summarize’, ‘recommend’, ‘learn’, and ‘implement’.
+                                <p className="text-black fs-22 fw-regular mt-3">Modern technology is changing the way businesses operate, compete, and grow. At Qmax Software Solutions, we utilize advanced technologies to develop solutions that do more than automate processes. Our focus is on creating systems that improve efficiency, enhance user experiences, support better decision-making, and help businesses adapt to an evolving digital landscape.
                                 </p>
                             </div>
                         </div>
@@ -351,7 +349,7 @@ const Home = () => {
                                             AI & ML
                                         </h3>
                                         <p className="fs-18 fw-regular text-black mt-2">
-                                            We leverage Machine Learning (ML) and Artificial Intelligence (AI) to make a software application smarter. With AI & ML, our solutions understand the users and keep them engaged by offering a personalised user experience.
+                                            Artificial Intelligence and Machine Learning enable businesses to transform data into valuable insights. We leverage AI-driven capabilities to automate repetitive tasks, improve customer interactions, analyze business trends, and deliver smarter digital experiences.
                                         </p>
                                         <a role="button" className="text-color mt-1" href="/next-gen-technology-development#ai-development" aria-label="Read more about Next-Gen Technology Development">Explore Next-Gen Technology <i className="fa-solid fa-arrow-right"></i></a>
                                     </div>
@@ -370,8 +368,7 @@ const Home = () => {
                                             AR
                                         </h3>
                                         <p className="fs-18 fw-regular text-black mt-2">
-                                            Augmented Reality (AR) is the next weapon on our advanced tech-stack. From simple virtual try-ons to guided surgeries, property tours, interactive learning modules, enhanced retail experiences, and more. With AR integration, we take user experience to
-                                            the next level.
+                                            Augmented Reality helps bridge the gap between digital and physical experiences. From interactive product demonstrations and virtual showcases to engaging learning experiences, AR technology enables businesses to create more immersive and engaging user interactions.
 
                                         </p>
                                         <a role="button" className="text-color mt-1" href="/next-gen-technology-development#ar-development" aria-label="Read more about Next-Gen Technology Development">Explore Next-Gen Technology <i className="fa-solid fa-arrow-right"></i></a>
@@ -392,7 +389,7 @@ const Home = () => {
 
                                         </h3>
                                         <p className="fs-18 fw-regular text-black mt-2">
-                                            We create fully immersive digital experiences with advanced 3D VR development and integration. From immersive training modules to high-level architectural visualizations, virtual classNamerooms, product demonstrations, and much more, we can craft everything.
+                                           Virtual Reality creates highly interactive digital environments that improve training, visualization, and user engagement. We explore VR-powered experiences that help businesses present ideas, products, and services in innovative and impactful ways.
                                         </p>
                                         <a role="button" className="text-color mt-1" href="/next-gen-technology-development#vr-development" aria-label="Read more about Next-Gen Technology Development">Explore Next-Gen Technology <i className="fa-solid fa-arrow-right"></i></a>
                                     </div>
@@ -411,8 +408,7 @@ const Home = () => {
                                             IoT
                                         </h3>
                                         <p className="fs-18 fw-regular text-black mt-2">
-                                            For a smarter, safer, and higher-quality life, our IoT development services aim to create a real-time ecosystem that seamlessly connects devices, sensors, and software applic ations to elevate living. From smart homes to smart workplaces, we make our
-                                            surroundings smarter.
+                                           The Internet of Things (IoT) connects devices, systems, and data to create smarter business operations. By enabling real-time monitoring, automation, and data collection, IoT solutions help organizations improve efficiency, productivity, and operational control.
                                         </p>
                                         <a role="button" className="text-color mt-1" href="/next-gen-technology-development#iot-development" aria-label="Read more about Next-Gen Technology Development">Explore Next-Gen Technology <i className="fa-solid fa-arrow-right"></i></a>
                                     </div>
@@ -428,10 +424,10 @@ const Home = () => {
                         <div className="row">
                             <div className="col-lg-10 col-md-12 col-sm-12 mx-auto solution-heading-block text-center">
                                 <div className="subheading">
-                                    <h2 className="fs-18 fw-medium mb-2">Our Services</h2>
+                                    <h2 className="fs-18 fw-medium mb-2">Services</h2>
                                 </div>
                                 <div className="section-title">
-                                    <h2 className="text-black fs-38 fw-semibold">Custom  <span className="text-color"> IT Solutions, </span><br /> for Business Growth and Digital Success </h2>
+                                    <h2 className="text-black fs-38 fw-semibold">From  <span className="text-color">Idea to Market,</span><br /> Our Services & Support Continues Throughout </h2>
                                 </div>
                             </div>
 
@@ -444,7 +440,7 @@ const Home = () => {
                                     </div>
                                     <div className="service-content">
                                         <h3 className="fs-22 fw-semibold my-3">Website Design & Development</h3>
-                                        <p className="fs-18 fw-regular ">We create responsive, user-friendly, and SEO-friendly websites that help businesses establish a strong online presence and deliver an exceptional user experience.</p>
+                                        <p className="fs-18 fw-regular ">Create a strong online presence with responsive websites, custom web applications, and user-focused digital experiences designed to support business growth and customer engagement.</p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/web-design-company" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -456,7 +452,7 @@ const Home = () => {
                                     </div>
                                     <div className="service-content">
                                         <h3 className="fs-22 fw-semibold my-3">Custom Software Development</h3>
-                                        <p className="fs-18 fw-regular ">Our custom software solutions are designed to automate business processes, improve efficiency, and support long-term business growth with scalable technology.</p>
+                                        <p className="fs-18 fw-regular ">We develop customized software solutions that streamline operations, automate workflows, and help businesses improve productivity through technology-driven processes.</p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/software-development-services" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -468,7 +464,7 @@ const Home = () => {
                                     </div>
                                     <div className="service-content">
                                         <h3 className="fs-22 fw-semibold my-3">ERP & CRM Solutions</h3>
-                                        <p className="fs-18 fw-regular ">Streamline operations and manage customer relationships effectively with our customized ERP and CRM software solutions tailored to your business needs. </p>
+                                        <p className="fs-18 fw-regular ">Streamline operations, manage customer relationships, and improve productivity with customized ERP and CRM solutions built to meet the unique needs of your business. </p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/on-demand-app-development" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -480,7 +476,7 @@ const Home = () => {
                                     </div>
                                     <div className="service-content">
                                         <h3 className="fs-22 fw-semibold my-3">Mobile App Developmentt</h3>
-                                        <p className="fs-18 fw-regular ">We develop high-performance Android and iOS mobile applications that enhance customer engagement, improve accessibility, and support business growth. </p>
+                                        <p className="fs-18 fw-regular ">Transform your ideas into powerful Android and iOS mobile applications designed to deliver seamless user experiences, improve accessibility, and strengthen customer engagement. </p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/mobile-app-development-company" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -492,7 +488,7 @@ const Home = () => {
                                     </div>
                                     <div className="service-content">
                                         <h3 className="fs-22 fw-semibold my-3">Digital Marketing Services</h3>
-                                        <p className="fs-18 fw-regular ">Our digital marketing solutions include SEO, social media marketing, Google Ads, PPC advertising, and content marketing to increase visibility and generate quality leads.</p>
+                                        <p className="fs-18 fw-regular ">Increase your online visibility and generate quality leads through SEO, social media marketing, Google Ads, PPC advertising, and content marketing strategies tailored to your business objectives.</p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/next-gen-technology-development" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -503,9 +499,9 @@ const Home = () => {
                                         <img src="/assets/image/home/service-icon/cloud-development.png" height="40px" width="40px" alt="Cloud Development Icon" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="fs-22 fw-semibold my-3">E-commerce Development
+                                        <h3 className="fs-22 fw-semibold my-3">Enterprise Software Development
                                         </h3>
-                                        <p className="fs-18 fw-regular ">Build and grow your online business with secure, scalable, and feature-rich e-commerce websites designed to maximize sales and customer experience.</p>
+                                        <p className="fs-18 fw-regular ">Build scalable and secure enterprise applications that simplify complex business operations, improve collaboration, and support organizational growth.</p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -516,8 +512,8 @@ const Home = () => {
                                         <img src="/assets/image/home/service-icon/saas-development.png" height="40px" width="40px" alt="SaaS Development Icon" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="fs-22 fw-semibold my-3">API Integration Services</h3>
-                                        <p className="fs-18 fw-regular ">Connect your business applications seamlessly with secure API integration services that improve workflow efficiency and data management.</p>
+                                        <h3 className="fs-22 fw-semibold my-3">AI Product Development</h3>
+                                        <p className="fs-18 fw-regular ">Leverage Artificial Intelligence to automate tasks, analyze business data, improve customer experiences, and create intelligent digital solutions that drive efficiency and innovation.</p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/saas-development-company" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -528,8 +524,8 @@ const Home = () => {
                                         <img src="/assets/image/home/service-icon/digital-marketing.png" height="40px" width="40px" alt="Digital Marketing Icon" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="fs-22 fw-semibold my-3">WordPress Development</h3>
-                                        <p className="fs-18 fw-regular ">We create customized WordPress websites that are fast, secure, easy to manage, and optimized for search engines and user experience.</p>
+                                        <h3 className="fs-22 fw-semibold my-3">Cloud Development</h3>
+                                        <p className="fs-18 fw-regular ">Develop secure, scalable, and high-performance cloud-based solutions that enhance accessibility, improve flexibility, and support business continuity across modern digital environments.</p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="/digital-marketing-company" role="button"><span>Explore More</span></a></div>
                                 </div>
@@ -540,8 +536,8 @@ const Home = () => {
                                         <img src="/assets/image/home/service-icon/call.png" style={{ filter: 'brightness(1)' }} height="40px" width="40px" alt="Get Free Consulting Icon" />
                                     </div>
                                     <div className="service-content">
-                                        <h3 className="fs-22 fw-semibold my-3 text-white">Call Us For Quote</h3>
-                                        <p className="fs-18 fw-regular text-white" style={{ color: 'white' }}>Get a free consultation and discuss your project requirements with our experts. </p>
+                                        <h3 className="fs-22 fw-semibold my-3 text-white">Get Free Consulting</h3>
+                                        <p className="fs-18 fw-regular text-white" style={{ color: 'white' }}>Speak with our experts to discuss your project requirements, technology goals, and business challenges. We provide professional guidance to help you choose the right digital solution from day one. </p>
                                     </div>
                                     <div className="service-footer position-relative"><a href="tel:8890732899"><span style={{ color: 'white' }} role="button"><i className="fa-solid fa-phone"></i> Call Now</span></a></div>
                                 </div>
@@ -561,7 +557,7 @@ const Home = () => {
                             <div className="col-lg-6">
                                 <div className="software-guidance-wrap position-relative">
                                     <div className="section-title mb-5">
-                                        <h2 className="text-black fs-38 fw-semibold" style={{ wordWrap: 'break-word' }}>Get More Than Just <span className="text-gradient">Custom Software Development:</span>Guidance, Support & Modernization </h2>
+                                        <h2 className="text-black fs-38 fw-semibold" style={{ wordWrap: 'break-word' }}>Get More Than Just <span className="text-gradient">Custom Software Development:</span>Strategy, Support & Growth</h2>
                                     </div>
                                     <div className="guidance-wrap mt-4 ">
                                         <img src="/assets/image/home/consulting.png" width="30" alt="Consulting Icon" />
@@ -572,16 +568,14 @@ const Home = () => {
                                     </div>
                                     <div className="guidance-wrap mt-4 ">
                                         <img src="/assets/image/home/maintenance.png" width="30" alt="Maintenance Icon" />
-                                        <h3 className="fs-22 fw-semibold text-black mt-2">Maintenance</h3>
-                                        <p className="fs-18 fw-regular mt-2">Post-development, as well, team Qmax offers quality assurance and continued maintenance and technical support lifetime to its clients. Choose the best app developers and leave troubleshooting, software updates, and technical
-                                            glitches up to us. Stay focused on your work. </p>
+                                        <h3 className="fs-22 fw-semibold text-black mt-2">Maintenance & Support</h3>
+                                        <p className="fs-18 fw-regular mt-2">Technology requires continuous care to perform at its best. We provide ongoing maintenance, performance monitoring, security updates, bug fixes, and technical support to ensure your software, website, or application remains secure, reliable, and up to date.</p>
                                     </div>
                                     <div className="guidance-wrap mt-4 ">
                                         <img src="/assets/image/home/modernization.png" width="30" alt="Legacy Modernization Icon" />
-                                        <h3 className="fs-22 fw-semibold text-black mt-2">Legacy Modernization
+                                        <h3 className="fs-22 fw-semibold text-black mt-2">Technology Modernization
                                         </h3>
-                                        <p className="fs-18 fw-regular mt-2">Revamping and upgrading the age-old legacy software solutions with the latest tech is one of our core expertise. Renew your legacy system without losing its core functionalities and brand image. We help you move to modern
-                                            tech and design.</p>
+                                        <p className="fs-18 fw-regular mt-2">As technology evolves, outdated systems can limit business growth. We help businesses modernize legacy applications, upgrade existing platforms, improve performance, and adopt modern technologies such as Laravel, React JS, cloud-based solutions, and mobile-first architectures while preserving critical business processes.</p>
                                     </div>
                                     <a href="#" onClick={(e) => e.preventDefault()} className=" custom-cta-btn mt-5" style={{ transform: 'rotate(0)', display: 'inline-block' }} role="button"><span>Share Your Requirements <i className="fa-solid fa-arrow-up"></i></span></a>
                                 </div>
@@ -1014,13 +1008,14 @@ const Home = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-7">
                                 <div className="section-title">
-                                    <h2 className="text-black fs-38 fw-semibold"><span className="text-gradient">Hire Top Programmers</span> in India & Get Tailored Solutions: Choose India’s Best Software Development Company</h2>
-                                    <p className="text-black fs-18 fw-regular mt-4">Ezulix is a leading Software Development Company that provides bespoke web, app, and software development.
-                                        <br /><br /> With a decade of experience in delivering high-end business intelligence solutions, Qmax is a renowned IT software Development company recognized worldwide for its client-centered software services. Every Qmax
-                                        is well-versed in the art and science of designing top-of-the-line business process automation solutions.
-                                        <br /><br /> From on-demand apps for first-of-its-kind startups to premium ERP solutions and complete managed IT services, team Qmax has a tailored solution for everything.
+                                    <h2 className="text-black fs-38 fw-semibold"><span className="text-gradient"> Transforming Ideas</span> into Scalable Digital Solutions</h2>
+                                    <h3 className="text-black fs-38 fw-semibold">Custom Software, Web, Mobile & Digital Marketing Solutions for Modern Businesses</h3>
+                                    <p className="text-black fs-18 fw-regular mt-4">Businesses today need more than technology—they need solutions that improve efficiency, support growth, and create better customer experiences. At Qmax Software Solutions, we help organizations achieve these goals through custom software development, website development, mobile app development, ERP & CRM solutions, SaaS development, cloud development, and digital marketing services.
+                                        <br /><br /> Our team works closely with startups, SMEs, and enterprises to develop tailored software solutions that solve real business challenges. Whether you need a business website, e-commerce platform, enterprise software, Android & iOS mobile application, or business automation system, we focus on building scalable, secure, and user-friendly solutions that deliver long-term value.
+                                        
+                                        <br /><br /> Using modern technologies such as Laravel, React JS, cloud platforms, API integrations, and AI-powered solutions, we create digital products that help businesses streamline operations, improve productivity, and strengthen customer engagement
                                         <br />
-                                        <br /> Experience <span className="text-color"> 100% bespoke software, app, and web development services</span>, and make your dream a reality with us.
+                                        <br /> Beyond development, our expertise in SEO, social media marketing, Google Ads, PPC advertising, and content marketing helps businesses increase online visibility, attract qualified leads, and build a stronger digital presence.
                                     </p>
                                 </div>
                             </div>
@@ -1043,8 +1038,10 @@ const Home = () => {
                             </div>
                             <div className="col-lg-6 col-md-12">
                                 <div className="section-title mt-3">
-                                    <h2 className="text-black fs-38 fw-semibold">We’re Omnipresent!<span className="text-color"> Outsource Software Development </span> to India </h2>
-                                    <p className="text-black fs-18 fw-regular mt-3">Hire the top software and the best app developers in India to get the best quality web, app, and software development services at an affordable price without compromising the quality.
+                                    <h2 className="text-black fs-38 fw-semibold"><span className="text-color">Flexible Engagement Models</span>for Businesses Worldwide</h2>
+                                    <h3 className="text-black fs-38 fw-semibold">Reliable Technology Solutions Delivered Across Industries</h3>
+                                    <p className="text-black fs-18 fw-regular mt-3">Qmax Software Solutions helps startups, SMEs, and enterprises access skilled technology professionals and customized digital solutions tailored to their business requirements. Whether you're launching a new 
+                                        product, upgrading existing systems, or accelerating digital transformation, our team is ready to support your goals with the right expertise and development approach.
                                     </p>
                                     <div className="row mt-5">
                                         <div className="col-lg-10">
@@ -1057,7 +1054,7 @@ const Home = () => {
                                                     aria-controls="tab1"
                                                     role="tab"
                                                 >
-                                                    Onshore & On-Site
+                                                   Onshore & On-Site Support
                                                 </div>
 
                                                 <div
@@ -1072,23 +1069,23 @@ const Home = () => {
 
                                             </div>
                                             <div id="development-tab-content-0" className="development-tab-content" role="tabpanel" aria-labelledby="tab-btn1">
-                                                Hire highly skilled developers on-shore in–
+                                                For businesses that require direct collaboration, project consultation, and dedicated support, we offer flexible on-site engagement options to ensure seamless communication and project execution.
                                                 <ul className="development-list">
-                                                    <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="Check Icon" /> India</li>
-                                                    <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="Check Icon" /> United Arab Emirates</li>
-                                                    <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="Check Icon" /> United Kingdom</li>
+                                                    <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="" /> India</li>
+                                                    <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="" /> United Arab Emirates (UAE)</li>
+                                                    <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="" /> United Kingdom (UK)</li>
                                                 </ul>
                                                 <a href="/contactus" className="custom-cta-btn mt-4" role="button"><span>Connect <i className="fa-solid fa-arrow-up"></i></span></a>
                                             </div>
                                             <div id="development-tab-content-1" className="development-tab-content" style={{ display: 'none' }} role="tabpanel" aria-labelledby="tab-btn2">
-                                                Hire highly skilled developers off-shore in–
+                                                Access cost-effective software development services, website development, mobile app development, ERP & CRM solutions, SaaS development, cloud development, and digital marketing services without compromising quality, security, or performance.
                                                 <ul className="development-list">
                                                     <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="Check Icon" /> Remote Services to Everywhere</li>
                                                     <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="Check Icon" /> Connect At a Suitable Time</li>
                                                     <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="Check Icon" /> English-Efficient Team</li>
                                                     <li><img src="/assets/image/home/check.png" width="18" height="18" loading="lazy" alt="Check Icon" /> Cost Savings & Valid Pricing</li>
                                                 </ul>
-                                                <a href="/contactus" role="button" className="custom-cta-btn mt-4"><span>Connect <i className="fa-solid fa-arrow-up"></i></span></a>
+                                                <a href="/contactus" role="button" className="custom-cta-btn mt-4"><span>Connect With Our Team <i className="fa-solid fa-arrow-up"></i></span></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1144,9 +1141,10 @@ const Home = () => {
                                     <img src="/assets/image/home/shape-1.png" loading="lazy" alt="Shape Image" className="shape1" />
                                     <img src="/assets/image/home/shape-2.png" loading="lazy" alt="Shape Image" className="shape2" />
                                     <h2 className="text-white">
-                                        Let’s Develop Something <br /> Great Together
+                                        Let's Build Something <br /> Great Together
                                     </h2>
-                                    <p className="fs-18 text-white fw-regular my-3">Build an unbeatable brand image and get ready for a seamless digital transformation in business. Connect with our team to get premium-grade software and app solutions. </p>
+                                    <h3>Turn Your Ideas into Powerful Digital Solutions</h3>
+                                    <p className="fs-18 text-white fw-regular my-3">Whether you're planning a custom software solution, business website, mobile application, ERP & CRM system, SaaS platform, or digital marketing campaign, Qmax Software Solutions is ready to help. Our team combines technology, creativity, and business understanding to deliver scalable solutions that support growth, improve efficiency, and create lasting value.</p>
                                     <a href="/contactus" role="button" className="custom-cta-btn mt-3"><span>Discuss Your Project <i className="fa-solid fa-arrow-up"></i></span></a>
                                 </div>
                             </div>
