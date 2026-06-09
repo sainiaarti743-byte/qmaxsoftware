@@ -1,4 +1,5 @@
+---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/qmax/public_html/
-    - /bin/cp -R build/* $DEPLOYPATH
+    - /bin/cp -R %PROJECT_ROOT%/. $DEPLOYPATH
